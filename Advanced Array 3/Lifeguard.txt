@@ -1,0 +1,64 @@
+by London
+문제
+There are 
+N
+ lifeguards at the beach. 
+Each lifeguard works from 
+X
+ minutes to 
+Y
+ minutes. When one lifeguard is dismissed, we want to maximize the duration during which one or more lifeguards are on duty.
+
+
+Write a program to find the maximum duration where one or more lifeguards are on duty after dismissing one lifeguard.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+5
+≤
+N
+≤
+100
+)
+
+
+From the second to the (
+N
++
+1
+)-th line, each line consists of two integers 
+X
+ and 
+Y
+ separated by spaces.
+(
+1
+≤
+X
+≤
+Y
+≤
+10
+,
+000
+)
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+5
+1 22
+2 11 
+7 8
+1 6
+1 4
+
+예제 1 출력
+22

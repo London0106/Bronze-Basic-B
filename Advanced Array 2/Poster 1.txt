@@ -1,0 +1,121 @@
+by London
+문제
+Lena put up two posters on the bulletin board to find members for her guild. 
+Haru also placed one poster on top to promote his guild. 
+When attaching the posters, if the newly placed poster partially overlaps with the existing ones, the previously placed poster becomes partially hidden.
+
+
+Write a program to calculate the visible area of Lena's two posters after Haru has placed his poster on top.
+
+
+입력
+The coordinates 
+x
+1
+, 
+y
+1
+, 
+x
+2
+, 
+y
+2
+ of the poster attached by Lena are given from the first line to the second line, separated by spaces.
+(
+0
+≤
+x
+1
+<
+x
+2
+≤
+1
+,
+000
+, 
+0
+≤
+y
+1
+<
+y
+2
+≤
+1
+,
+000
+)
+
+
+The coordinates 
+x
+1
+, 
+y
+1
+, 
+x
+2
+, 
+y
+2
+ of the poster attached by Haru are given on the third line, separated by spaces.
+(
+0
+≤
+x
+1
+<
+x
+2
+≤
+1
+,
+000
+, 
+0
+≤
+y
+1
+<
+y
+2
+≤
+1
+,
+000
+)
+
+
+(
+x
+1
+,
+y
+1
+)
+ represents the bottom-left coordinates of the poster, and 
+(
+x
+2
+,
+y
+2
+)
+ represents the top-right coordinates of the poster.
+All the numbers provided as input are integers.
+
+
+출력
+Print the visible area of Lena's two posters after Haru has placed his poster on top.
+
+
+예제 1 입력
+1 2 7 8
+3 10 6 12
+1 1 8 8
+
+예제 1 출력
+6

@@ -1,0 +1,17 @@
+by London
+문제
+Given an integer N, write a program to print the reversed N and the sum of its digits.
+When reversing N, keep any leading zero in the result and print it as it is.
+
+입력
+The first line is given as an integer N.
+(1≤N≤1018)
+
+출력
+Print the reversed N and the sum of its digits.
+
+예제 1 입력
+12345
+
+예제 1 출력
+54321 15

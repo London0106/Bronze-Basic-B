@@ -1,0 +1,54 @@
+by London
+문제
+Names of 
+N
+ students who came to attend classes at Helloalgo are given. 
+Haru is curious about which uppercase English letter appears most frequently as the first letter in the students' names. 
+Help Haru to find out.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+1
+≤
+N
+≤
+100
+)
+
+
+From the second line to the 
+N
++
+1
+-th line, 
+S
+, consisting only of uppercase English letters, are given.
+(
+1
+≤
+|
+S
+|
+≤
+20
+)
+
+
+출력
+Print the answer. If there are two or more uppercase letters that appear most frequently, output all of them in lexicographic order.
+
+
+예제 1 입력
+5
+ABC
+CDE
+FGH
+ABCD
+CDEF
+
+예제 1 출력
+AC

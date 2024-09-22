@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int n;
+	cin >> n;
+	int select[200];
+	for(int i=0; i<n; i++){
+		cin >> select[i];
+	}
+	int correct[200];
+	for(int i=0; i<n; i++){
+		cin >> correct[i];
+	}
+	int counter=0;
+	for(int i=0; i<n; i++){
+		if(select[i]==correct[i]){
+			counter++;
+		}
+	}
+	cout << counter;
+	return 0;
+}

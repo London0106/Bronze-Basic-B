@@ -1,0 +1,95 @@
+문제
+Write a program that calculates the sum of the numbers at the four corners of any rectangle that can be formed in an 
+N
+×
+M
+ size array, each element of which contains one of the numbers from 
+0
+ to 
+9
+. 
+
+
+Let's say the numbers at each corner are 
+i
+, 
+j
+, 
+k
+, 
+m
+. The program should compute the 
+∑
+(
+i
+×
+j
+×
+k
+×
+m
+)
+.
+The positions of the four corners must be different from each other.
+
+
+입력
+The first line will contain the integers 
+N
+ and 
+M
+, separated by a space.
+(
+2
+≤
+N
+,
+M
+≤
+50
+)
+
+
+From the second line to the (
+N
++
+1
+)-th line, 
+M
+ integers are provided, separated by a space.
+
+
+출력
+Let's say the numbers at each corner are 
+i
+, 
+j
+, 
+k
+, 
+m
+. 
+Print 
+∑
+(
+i
+×
+j
+×
+k
+×
+m
+)
+.
+
+
+예제 1 입력
+5 5
+9 2 5 5 3 
+9 8 1 0 5 
+6 9 3 3 0 
+4 7 1 8 1 
+6 8 2 8 2 
+
+예제 1 출력
+44075

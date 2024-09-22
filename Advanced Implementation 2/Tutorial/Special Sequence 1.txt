@@ -1,0 +1,30 @@
+By London
+문제
+You are given a special sequence that repeats the numbers from 1 to N.
+For odd numbers, each value is repeated twice, and for even numbers, each value is repeated four times. 
+
+The following is a partial representation of this sequence:
+1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, ...
+
+Given the value of N and the position M, write a program to find and output the M-th value in the sequence. Assume that the first value at the beginning of the sequence is considered the 1st value.
+
+입력
+The first line consists of two integers N and M separated by a space.
+(1≤N≤1000, 1≤M≤2×[(3N)/(2)])
+
+
+출력
+Print the M-th value in the sequence.
+
+
+예제 1 입력
+5 7
+
+예제 1 출력
+3
+
+예제 2 입력
+10 20
+
+예제 2 출력
+7

@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    int infectedCount=0;
+    for(int i=0; i<n; i++){
+        string filename;
+        cin >> filename;
+        int length=0;
+        while(filename[length]!='\0'){
+            length++;
+        }
+        if(length>=5&&
+            filename[length-5]=='.'&&
+            filename[length-4]=='h'&&
+            filename[length-3]=='a'&&
+            filename[length-2]=='r'&&
+            filename[length-1]=='u'){
+            infectedCount++;
+        }
+    }
+    cout << infectedCount << endl;
+    return 0;
+}

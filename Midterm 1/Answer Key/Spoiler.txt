@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string a, b;
+    cin >> a >> b;
+    int lengthA=0;
+    int lengthB=0;
+    while (a[lengthA] != '\0'){
+		lengthA++;
+	}
+    while (b[lengthB] != '\0'){
+		lengthB++;
+	}
+    for(int i=0; i<=lengthA-lengthB; i++){
+        int j;
+        for(j=0; j<lengthB; j++){
+            if(a[i+j]!=b[j]){
+                break;
+            }
+        }
+        if(j==lengthB){
+            for(int k=0; k<lengthB; k++){
+                a[i+k]='-';
+            }
+            i+=lengthB-1;
+        }
+    }
+    cout << a;
+    return 0;
+}

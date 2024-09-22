@@ -1,0 +1,99 @@
+문제
+For 
+1
+≤
+i
+,
+j
+≤
+N
+, and 
+i
+<
+j
+, print the number of ordered pairs 
+(
+i
+,
+j
+)
+ where 
+A
+i
++
+A
+j
+ is a multiple of 
+K
+.
+
+
+입력
+On the first line, integers 
+N
+ and 
+K
+ are provided, separated by a space.
+(
+2
+≤
+N
+≤
+2
+,
+000
+, 
+2
+≤
+K
+≤
+10
+)
+
+
+On the second line, the values of 
+A
+i
+ are given, separated by a space.
+(
+1
+≤
+i
+≤
+N
+, 
+1
+≤
+A
+i
+≤
+1
+,
+000
+)
+
+
+출력
+Print the number of ordered pairs 
+(
+i
+,
+j
+)
+ where 
+A
+i
++
+A
+j
+ is a multiple of 
+K
+.
+
+
+예제 1 입력
+3 10
+630 641 370
+
+예제 1 출력
+1

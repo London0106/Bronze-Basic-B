@@ -1,0 +1,82 @@
+문제
+Write a program to count the number of ordered triplets 
+(
+i
+,
+j
+,
+k
+)
+ satisfying the condition 
+1
+≤
+i
+<
+j
+<
+k
+≤
+N
+ and 
+A
+i
++
+A
+j
++
+A
+k
+=
+M
+.
+
+
+입력
+The first line contains two integers 
+N
+ and 
+M
+ separated by a space.
+(
+3
+≤
+N
+≤
+1
+,
+000
+, 
+3
+≤
+M
+≤
+300
+)
+
+
+The second line consists of 
+N
+ integers 
+A
+i
+ separated by spaces.
+(
+1
+≤
+A
+i
+≤
+100
+)
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+10 10
+1 2 3 1 2 3 4 3 3 3
+
+예제 1 출력
+10

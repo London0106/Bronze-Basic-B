@@ -1,0 +1,65 @@
+문제
+In this problem, the definition of a 1-Rectangle is as follows:
+
+
+
+All the numbers at the four corners of the rectangle are 
+1
+.
+The positions of the four corners must be different from each other.
+
+
+
+Haru wants to write 
+0
+ or 
+1
+ in an 
+N
+×
+M
+-sized array and find the total count of all 1-Rectangle in the array. 
+Let's help Haru with this task.
+
+
+입력
+The first line contains two integers 
+N
+ and 
+M
+ separated by a space.
+(
+2
+≤
+N
+,
+M
+≤
+50
+)
+
+
+From the second line to the (
+N
++
+1
+)th line, 
+N
+ lines in total, there are 
+M
+ integers given without any spaces between them.
+
+
+출력
+Print the total count of all 1-Rectangle in the array.
+
+
+예제 1 입력
+4 4
+1101
+1010
+1111
+1011
+
+예제 1 출력
+9

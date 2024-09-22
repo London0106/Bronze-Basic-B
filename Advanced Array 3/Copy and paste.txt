@@ -1,0 +1,91 @@
+by London
+문제
+A photo of size 
+N
+×
+N
+ is provided. We aim to enlarge the photo by 
+M
+ times horizontally and 
+K
+ times vertically.
+Print the photo after the copy and paste.
+
+
+입력
+On the first line, integers 
+N
+, 
+M
+, and 
+K
+ are given, separated by a space.
+(
+1
+≤
+N
+≤
+100
+, 
+1
+≤
+M
+,
+K
+≤
+100
+)
+
+
+From the second line to the (
+N
++
+1
+)-th line, the photo's information at 
+(
+x
+,
+y
+)
+ is provided. (
+1
+≤
+x
+,
+y
+≤
+N
+)
+This information is either 
+0
+ or 
+1
+.
+
+
+출력
+Print the photo after the copy and paste.
+
+
+예제 1 입력
+3 4 5
+111
+010
+111
+
+예제 1 출력
+111111111111
+010010010010
+111111111111
+111111111111
+010010010010
+111111111111
+111111111111
+010010010010
+111111111111
+111111111111
+010010010010
+111111111111
+111111111111
+010010010010
+111111111111

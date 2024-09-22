@@ -1,0 +1,50 @@
+문제
+Snail A circles the track in 
+x
+ minutes per lap, Snail B circles the track in 
+y
+ minutes per lap, and Snail C circles the track in 
+z
+ minutes per lap.
+
+
+Find the time at which all three snails, excluding their initial start, meet at the starting point together.
+
+
+입력
+On the first line, integers 
+x
+, 
+y
+, and 
+z
+ are given, separated by a space.
+(
+1
+≤
+x
+,
+y
+,
+z
+≤
+100
+)
+
+
+출력
+Print the time at which all three snails, excluding their initial start, meet at the starting point together.
+It is guaranteed that the three snails will meet at the starting point within 
+1
+,
+000
+,
+000
+ minutes.
+
+
+예제 1 입력
+2 3 5
+
+예제 1 출력
+30

@@ -1,0 +1,30 @@
+by London
+문제
+Haru wants to tell Lena a string A.
+However, this string A contains a spoiler from a movie, represented by string B. 
+Write a program to replace all occurrences of B in A with the '-' sign.
+Note that if A is "CCCCC" and B is "CCC", it should be processed as "---CC".
+
+입력
+On the first line, the string A is given.
+On the second line, the string B is given.
+(1≤|B|≤|A|≤1,000)
+A and B are made up of lowercase English letters only without any spaces.
+
+출력
+Print the string after marking the spoilers.
+
+
+예제 1 입력
+helloalgo
+algo
+
+예제 1 출력
+hello----
+
+예제 2 입력
+timeisgold
+i
+
+예제 2 출력
+t-me-sgold

@@ -1,0 +1,202 @@
+by London
+문제
+In Haru's modified chess variant, there are 
+N
+ black rooks placed on an 
+8
+×
+8
+ chessboard. 
+The coordinates on the chessboard are represented by 
+(
+x
+,
+y
+)
+, where 
+x
+=
+1
+,
+2
+,
+.
+.
+.
+,
+8
+ is replaced with 
+a
+,
+b
+,
+.
+.
+.
+,
+h
+ and 
+y
+ is represented by 
+1
+ to 
+8
+. 
+
+
+Unlike regular chess, in this variant, the rook can move like a knight, as shown in the arrows below. 
+The rook can jump over other pieces and cannot move to a square occupied by another black piece. Additionally, the rook cannot move beyond the edges of the chessboard.
+
+
+
+The two pictures below are examples of two black rooks located at 
+(
+5
+,
+8
+)
+ and 
+(
+6
+,
+6
+)
+ respectively. 
+The rook at 
+(
+5
+,
+8
+)
+ can make a single move to capture the white pieces at 
+(
+5
+,
+3
+)
+ and 
+(
+5
+,
+2
+)
+.
+
+
+
+The rook at 
+(
+6
+,
+6
+)
+ can make a single move to capture the white piece at 
+(
+6
+,
+2
+)
+.
+
+
+
+(Subtask 1) (10 pts) 
+1
+≤
+N
+≤
+2
+.
+(Subtask 2) (90 pts) 
+3
+≤
+N
+≤
+62
+.
+
+
+입력
+The information of the chessboard is provided from the first line to the eighth line, separated by spaces.
+
+
+the 
+j
+-th value in the 
+i
+-th line corresponds to the information of the square 
+(
+j
+,
+9
+−
+i
+)
+ on the chessboard.
+
+
+If the square 
+(
+j
+,
+9
+−
+i
+)
+ is represented as '.', it indicates an empty square.
+If it is represented as 'B', it means there is a black piece other than a rook on that square.
+If it is represented as 'W', it means there is a white piece on that square.
+If it is represented as 'R', it means there is a black rook on that square.
+
+
+출력
+Let's call the number of pieces each rook can capture in a single move as 
+A
+1
+,
+A
+2
+, ..., 
+A
+N
+.
+Output the number of cases 
+0
+, 
+1
+, ..., 
+14
+ in 
+A
+, separated by spaces.
+
+
+For example, only one Black Rook is on the board and that can capture only one white piece, you may output like below;
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+예제 1 입력
+. . . . R . B .
+B B . . . B B .
+. . B . . R . B
+W . . B . . . B
+. W . W B . B W
+W . . . W . W .
+. . . W W W W W
+W . . . . . . .
+
+예제 1 출력
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+
+예제 2 입력
+. . . W . . . .
+. . . W . . . .
+. . . B . . . .
+W W B R B W W W
+. . . B . . . .
+. . . W . . . .
+. . . W . . . .
+. . . W . . . .
+
+예제 2 출력
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0

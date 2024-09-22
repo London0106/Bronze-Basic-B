@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n,m,k;
+    cin >> n >> m >> k;
+    int distance[10];
+    int fuel[10];
+    for(int i=0; i<k; i++){
+        cin >> distance[i] >> fuel[i];
+    }
+    int currentfuel=m;
+    int currentlocation=0;
+    for(int i=0; i<k; i++){
+        int distanceStation=distance[i]-currentlocation;
+        if(distanceStation>currentfuel){
+            cout << 0 << endl;
+            return 0;
+        }
+        currentfuel-=distanceStation;
+        currentfuel+=fuel[i];
+        currentlocation=distance[i];
+    }
+    if(n-currentlocation>currentfuel){
+        cout << 0 << endl;
+    }else{
+        cout << 1 << endl;
+    }
+    return 0;
+}

@@ -1,0 +1,118 @@
+by London
+문제
+Haru wants to promote a parking lot by putting up 
+N
+ posters with consecutive numbers from 
+1
+ to 
+N
+ on the wall of the parking lot. 
+However, if a poster overlaps with a previously attached one, the part of the previous poster behind the new one becomes hidden.
+
+
+Write a program to calculate the area visible when all 
+N
+ posters are attached to the parking lot wall. 
+The program should output the total area visible with posters numbered from 
+1
+ to 
+N
+.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+3
+≤
+N
+≤
+1
+,
+000
+)
+
+
+From the second line to the (
+N
++
+1
+)-th line, there are integers 
+x
+1
+, 
+y
+1
+, 
+x
+2
+, 
+y
+2
+ given, separated by spaces.
+(
+0
+≤
+x
+1
+<
+x
+2
+≤
+1
+,
+000
+, 
+0
+≤
+y
+1
+<
+y
+2
+≤
+1
+,
+000
+)
+
+
+(
+x
+1
+,
+y
+1
+)
+ represents the bottom-left coordinates of the poster, and 
+(
+x
+2
+,
+y
+2
+)
+ represents the top-right coordinates of the poster.
+
+
+출력
+After attaching 
+N
+ posters, output the area where posters from 
+1
+ to 
+N
+ are visible on the parking lot wall, separated by spaces.
+
+
+예제 1 입력
+4
+1 2 3 4
+0 0 7 10
+5 5 8 20
+1 10 10 20
+
+예제 1 출력
+0 60 15 90 

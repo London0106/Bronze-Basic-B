@@ -1,0 +1,60 @@
+문제
+Write a program to determine the number of perfect squares between 
+a
+ and 
+b
+, inclusive.
+A perfect square is defined as a number 
+Q
+ for which there exists an 
+P
+ such that 
+P
+×
+P
+=
+Q
+ (
+P
+,
+Q
+≥
+1
+)
+P
+ and 
+Q
+ are positive integers.
+
+
+입력
+On the first line, integers 
+a
+ and 
+b
+ are provided, separated by a space.
+(
+1
+≤
+a
+<
+b
+≤
+10
+6
+)
+
+
+출력
+Print the number of perfect squares between 
+a
+ and 
+b
+, inclusive.
+
+
+예제 1 입력
+2 11
+
+예제 1 출력
+2

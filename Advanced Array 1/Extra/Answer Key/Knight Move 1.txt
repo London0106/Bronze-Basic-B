@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const int knightMoves[8][2] = {
+        {2, 1}, {2, -1}, {-2, 1}, {-2, -1},
+        {1, 2}, {1, -2}, {-1, 2}, {-1, -2}
+    };
+    
+    char board[8][8];
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+            cin >> board[i][j];
+        }
+    }
+    
+    int captureCount[9] = {0};
+
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+            if (board[i][j] == 'K') {
+                int count = 0;
+
+                for (int k = 0; k < 8; ++k) {
+                    int newX = i + knightMoves[k][0];
+                    int newY = j + knightMoves[k][1];
+                    
+                    if (newX >= 0 && newX < 8 && newY >= 0 && newY < 8) {
+                        if (board[newX][newY] == 'B') {
+                            ++count;
+                        }
+                    }
+                }
+                
+                captureCount[count]++;
+            }
+        }
+    }
+    
+    for (int i = 0; i < 9; ++i) {
+        cout << captureCount[i] << ' ';
+    }
+    cout << endl;
+    
+    return 0;
+}

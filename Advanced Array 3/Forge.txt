@@ -1,0 +1,84 @@
+by London
+문제
+In the neighborhood where Lena lives, there is a very famous forge that produces swords. 
+The forge plans to produce 
+N
+ swords today, and each sword is crafted by a skilled artisan. 
+If the production periods of swords 
+i
+ and 
+j
+ overlap, the required number of artisans is 
+A
+i
++
+A
+j
+.
+
+
+Find the maximum number of artisans needed to produce the 
+N
+ swords.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+1
+≤
+N
+≤
+100
+)
+
+
+From the second to the (
+N
++
+1
+)-th line, each line consists of three integers 
+X
+, 
+Y
+, and 
+A
+i
+ separated by spaces. 
+These represent the start time, end time, and the number of artisans required to produce a sword, respectively.
+(
+1
+≤
+X
+<
+Y
+≤
+10
+,
+000
+, 
+1
+≤
+A
+i
+≤
+100
+)
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+5
+1 7 10
+2 6 2 
+3 7 21
+1 1 2
+1 10 10
+
+예제 1 출력
+43

@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    long n;
+    cin >> n;
+    int zeros=0, ones=0;
+    while(n>0){
+        if(n%2==0){
+            zeros++;
+        } else {
+            ones++;
+        }
+        n/=2;
+    }
+    cout << zeros << " " << ones;
+    return 0;
+}

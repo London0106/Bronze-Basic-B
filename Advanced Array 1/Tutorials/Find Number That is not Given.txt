@@ -1,0 +1,45 @@
+by London
+문제
+Among the numbers from 1 to N, N−1 numbers are given without duplication. 
+In this case, print the number from 1 to N that is not given.
+
+입력
+The first line is given as an integer N.
+(5≤N≤1,000)
+
+From the second line to the N-th line, integers are given, one per line.
+
+출력
+Print the number from 1 to N that is not given.
+
+예제 1 입력
+5
+1
+5
+4
+3
+
+예제 1 출력
+2
+
+예제 2 입력
+17
+16
+12
+2
+15
+6
+4
+14
+9
+17
+7
+3
+1
+10
+11
+5
+8
+
+예제 2 출력
+13

@@ -1,0 +1,90 @@
+by London
+문제
+There are 
+N
+ speed cameras on the highway. There is only one camera at each location.
+In 
+M
+ sections, Haru was speeding, and if each section has one or more speed cameras, Haru must pay a fine of 
+K
+ won multiplied by the number of cameras. 
+Speeding sections can overlap with each other.
+
+
+Write a program to calculate the total amount of fine that Haru has to pay.
+Even if speed cameras are present at the starting and ending points of the speeding sections, they will still be enforced.
+
+
+입력
+The first line consists of three integers 
+N
+, 
+M
+, and 
+K
+ separated by spaces.
+(
+1
+≤
+N
+≤
+100
+, 
+1
+≤
+M
+≤
+50
+, 
+1
+≤
+K
+≤
+10
+9
+)
+
+
+The second line contains 
+N
+ integers separated by spaces. 
+These represent the coordinates of the speed cameras.
+
+
+From the third to the (
+M
++
+2
+)-th line, each line contains two integers 
+X
+ and 
+Y
+ separated by spaces. 
+These represent the starting and ending points of each speeding section, respectively.
+(
+1
+≤
+X
+≤
+Y
+≤
+5
+N
+)
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+10 5 838
+38 39 15 5 17 21 37 30 31 27 
+16 46
+25 47
+15 23
+28 50
+23 24
+
+예제 1 출력
+18436

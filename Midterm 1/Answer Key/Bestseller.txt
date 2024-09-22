@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n, m;
+    cin >> n >> m;
+    int sales[m][n];
+    for(int i=0; i<m; i++){
+        for(int j=0; j<n; j++){
+            cin >> sales[i][j];
+        }
+    }
+    for(int i=0; i<m; i++){
+        int bestSellingBook=0;
+        for(int j=1; j<n; j++){
+            if(sales[i][j]>sales[i][bestSellingBook]){
+                bestSellingBook=j;
+            }
+        }
+        cout << bestSellingBook+1 << endl;
+    }
+    return 0;
+}

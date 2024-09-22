@@ -1,0 +1,23 @@
+by London
+문제
+An integer N is given. 
+Write a program to represent N in binary form and then output the number of zeros and the number of ones in that binary representation.
+
+입력
+The first line consists of an integer N.
+(1≤N≤1018)
+
+출력
+Print the number of zeros and the number of ones separated by a space.
+
+예제 1 입력
+5
+
+예제 1 출력
+1 2
+
+예제 2 입력
+31
+
+예제 2 출력
+0 5

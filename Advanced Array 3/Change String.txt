@@ -1,0 +1,89 @@
+by London
+문제
+A string 
+S
+ (
+|
+S
+|
+=
+500
+) is given, and 
+Q
+ (
+Q
+=
+10
+) queries are provided. Write a program to execute the following queries:
+
+
+
+1 
+a
+ 
+b
+ : Replace all occurrences of character a in string 
+S
+ with 
+b
+. (
+a
+≠
+b
+)
+2 
+a
+ : Print the number of occurrences of character a in string 
+S
+.
+
+
+
+입력
+On the first line, the string 
+S
+ is given.
+S
+ consists of lowercase letters only.
+(
+|
+S
+|
+=
+500
+, 
+Q
+=
+10
+)
+
+
+From the second line to the 
+11
+-th line, the information about the queries is provided.
+
+
+출력
+Whenever a query 2 is given, print the result on a separate line for each.
+
+
+예제 1 입력
+pvpwqgqhxfrsxidoatxjifqauesfknnwomeaskfljjsqalwtazmbqtzhqzigcppotfngxftmpmhiaalojuepcroehztkkcsmvlmkcgxjmiyaofptziqkibemditechwaookhpbitahaucntwbcodobnddmxjgzhokonqrlzpioruszecqzrsuipiwjvopswtbdznhrrsdjnghxfxdzpxgqbgnktqzelnaqydpnrynjvywcyxzntbbpfhowjdwqbcevoxzsycyfooptwljkoxgquresvpbvroegawsefdmkehyltghyendwsyhsmffjaplcscxuxvaokiuqpopemqhcpbnvxkrvojhcsygjxlatktbkfrxmqubsshsdwdtfkrtohplaihhquskinmmxueuxkkkorzxcgggrodqqnbjnulhzspqxszdivysvqzqiyodbznmwfvxjzszvjzbshvlsbocdazdxvxabxblleijnesvamdgbgp
+2 m
+1 w z
+2 l
+2 s
+1 y e
+1 o s
+2 j
+2 d
+1 t d
+2 r
+
+예제 1 출력
+17
+15
+27
+18
+20
+15

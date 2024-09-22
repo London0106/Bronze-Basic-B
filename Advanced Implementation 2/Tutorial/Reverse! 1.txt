@@ -1,0 +1,27 @@
+by London
+문제
+Let's define R(X) as a function that reverses all the digits of X. 
+Write a program to print R(R(X)×R(Y)). 
+If there are leading zeros in the result, remove them before outputting the final answer.
+
+(Subtask 1) (10 pts) 1≤X,Y≤9.
+(Subtask 2) (90 pts) There are no additional constraints or conditions.
+
+입력
+The first line consists of two integers X and Y separated by a space.
+(1≤X,Y≤10,000)
+
+출력
+Print R(R(X)×R(Y))
+
+예제 1 입력
+3 8
+
+예제 1 출력
+42
+
+예제 2 입력
+3 6
+
+예제 2 출력
+81

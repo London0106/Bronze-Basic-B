@@ -1,0 +1,43 @@
+by London
+문제
+Given a word S consisting only of lowercase letters, write a program to calculate the value of (the count of 'a' in S)×1+(the count of 'b' in S) ×2+
+ (the count of 'c' in 
+S
+) 
+×
+3
++
+ ... 
++
+ (the count of 'z' in 
+S
+) 
+×
+26
+, and then output the result.
+
+
+입력
+The first line contains a word 
+S
+ consisting only of lowercase letters.
+(
+1
+≤
+|
+S
+|
+≤
+100
+)
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+abcdee
+
+예제 1 출력
+20

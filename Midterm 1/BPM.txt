@@ -1,0 +1,28 @@
+by London
+문제
+Given the BPM for each beat of a song, write a program that calculates the number of beats where the BPM has increased and decreased compared to the previous beat.
+
+
+입력
+The first line will contain the number of beats in the song, N.
+(1≤N≤106)
+
+The second line will contain the BPM for each beat. BPM is integer.
+(50≤BPMi≤400)
+
+출력
+Output the number of beats where the BPM has increased and decreased, separated by a space.
+
+예제 1 입력
+6
+100 120 140 120 100 100
+
+예제 1 출력
+2 2
+
+예제 2 입력
+10
+100 101 102 103 104 105 106 104 106 104
+
+예제 2 출력
+7 2

@@ -1,0 +1,203 @@
+by London
+문제
+There are 
+N
+ white knights placed on an 
+8
+×
+8
+ chessboard. 
+The coordinates on the chessboard are represented by 
+(
+x
+,
+y
+)
+, where 
+x
+=
+1
+,
+2
+,
+.
+.
+.
+,
+8
+ is replaced with 
+a
+,
+b
+,
+.
+.
+.
+,
+h
+ and 
+y
+ is represented by 
+1
+ to 
+8
+. 
+
+
+The knight can move as shown in the diagram below, and it cannot move outside the boundaries of the chessboard. Additionally, the knight cannot move to a square occupied by another white piece.
+
+
+
+The two diagrams below are examples of two white knights positioned at 
+(
+3
+,
+4
+)
+ and 
+(
+6
+,
+5
+)
+ on the chessboard.
+The knight at 
+(
+3
+,
+4
+)
+ can capture a black piece located at 
+(
+2
+,
+6
+)
+, 
+(
+1
+,
+5
+)
+, or 
+(
+2
+,
+2
+)
+ with just one move.
+
+
+
+The knight at 
+(
+6
+,
+5
+)
+ can capture a black piece located at 
+(
+5
+,
+7
+)
+ with just one move.
+
+
+
+(Subtask 1) (10 pts)  
+1
+≤
+N
+≤
+2
+.
+(Subtask 2) (90 pts) 
+3
+≤
+N
+≤
+62
+.
+
+
+입력
+The information of the chessboard is provided from the first line to the eighth line, separated by spaces.
+
+
+the 
+j
+-th value in the 
+i
+-th line corresponds to the information of the square 
+(
+j
+,
+9
+−
+i
+)
+ on the chessboard.
+
+
+If the square 
+(
+j
+,
+9
+−
+i
+)
+ is represented as '.', it indicates an empty square.
+If it is represented as 'B', it means there is a black piece on that square.
+If it is represented as 'W', it means there is a white piece other than a knight on that square.
+If it is represented as 'K', it means there is a white knight on that square.
+
+
+출력
+Let's call the number of pieces each knight can capture in a single move as 
+A
+1
+,
+A
+2
+, ..., 
+A
+N
+.
+Output the frequency of occurrences of 
+0
+, 
+1
+, ..., 
+8
+ in 
+A
+, separated by spaces.
+
+
+예제 1 입력
+. . B . . . . B
+. . . . B . . .
+. B B . . . . .
+B . . . . K . .
+. . K . . . . .
+. . . . . . . .
+. B . . . W W W
+. W . . . W W .
+
+예제 1 출력
+0 1 0 1 0 0 0 0 0
+
+예제 2 입력
+B B B B B B B B
+B B B B B B B B
+. K . . . . . K
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+W W W W W W W W
+W . W W W W . W
+
+예제 2 출력
+0 0 1 1 0 0 0 0 0

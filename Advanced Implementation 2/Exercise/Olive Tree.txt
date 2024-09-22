@@ -1,0 +1,26 @@
+by London
+문제
+From the generous olive tree, A olives grow every day. 
+Haru harvests Ei olives from this tree for N days.
+Any olives not harvested remain on the tree.
+
+After N days, determine the number of olives left on the tree after the harvest.
+If the number of olives grown on the tree is less than the number Haru wishes to harvest, then only the olives available on the tree are harvested.
+Note that the olives are harvested after they have grown.
+
+입력
+On the first line, integers N and A are given, separated by a space.
+(1≤N≤100,000, 1≤A≤200)
+
+On the second line, N integers representing Ei are provided, separated by spaces.
+(0≤Ei≤100)
+
+출력
+Print the number of olives left on the tree after the harvest after N days.
+
+예제 1 입력
+6 5
+7 3 1 8 20 1
+
+예제 1 출력
+4

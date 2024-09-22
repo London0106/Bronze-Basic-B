@@ -1,0 +1,65 @@
+문제
+In a box shaped like an 
+N
+×
+N
+ grid, a snail is crawling. 
+If the edge of the box is in front of the snail, it turns 
+90
+ degrees to the right in place. Otherwise, it moves straight one space. 
+This snail does not revisit the grids it has been to in the past. 
+Also, if there is no longer a space for the snail to proceed, the snail goes into hibernation.
+The example below is for when 
+N
+=
+3
+.
+
+
+1 2 3
+8 9 4
+7 6 5
+
+After the snail goes into hibernation, write a program that outputs the order in which the snail visited each grid.
+The snail starts crawling from the top left corner of the grid.
+
+
+입력
+On the first line, the integer 
+N
+ is given.
+(
+1
+≤
+N
+≤
+100
+)
+
+
+출력
+For every grid, output over 
+N
+ lines, indicating the order in which the snail visited each grid, separated by spaces.
+
+
+예제 1 입력
+3
+
+예제 1 출력
+1 2 3 
+8 9 4 
+7 6 5 
+
+예제 2 입력
+8
+
+예제 2 출력
+1 2 3 4 5 6 7 8 
+28 29 30 31 32 33 34 9 
+27 48 49 50 51 52 35 10 
+26 47 60 61 62 53 36 11 
+25 46 59 64 63 54 37 12 
+24 45 58 57 56 55 38 13 
+23 44 43 42 41 40 39 14 
+22 21 20 19 18 17 16 15 

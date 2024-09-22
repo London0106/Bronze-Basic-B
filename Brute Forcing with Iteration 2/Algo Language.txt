@@ -1,0 +1,108 @@
+문제
+Write a program that outputs 
+1
+ if a given string 
+S
+ can be composed only using the Helloalgo Language, which consists of 
+N
+ words, and 
+0
+ if it cannot.
+
+
+There are no cases where for 
+i
+≠
+j
+, 
+A
+i
+ is a substring of 
+A
+j
+, or 
+A
+j
+ is a substring of 
+A
+i
+. 
+For example, there are no cases where 
+A
+i
+=
+ wow, 
+A
+j
+=
+ wowow.
+
+
+입력
+The first line will provide the integer 
+N
+.
+(
+1
+≤
+N
+≤
+10
+)
+
+
+From the second line to the (N+1)-th line, words from the Helloalgo Language 
+A
+i
+ will be provided.
+(
+1
+≤
+|
+A
+i
+|
+≤
+10
+)
+
+
+On the (
+N
++
+2
+)-th line, 
+S
+ will be provided.
+(
+1
+≤
+|
+S
+|
+≤
+100
+)
+
+
+출력
+Print 
+1
+ if a given string 
+S
+ can be composed only using the algo Language, which consists of 
+N
+ words, and 
+0
+ if it cannot.
+
+
+예제 1 입력
+3
+wow
+hello
+algo
+wowwowhelloalgowowalgohellohellohellohelloalgo
+
+예제 1 출력
+1

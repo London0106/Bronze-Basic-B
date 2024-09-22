@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int correct[26]={0};
+    for(int i=0; i<26; i++){
+        int packages;
+        cin >> packages;
+        char package;
+        for (int j=0; j<packages; j++){
+            cin >> package;
+            if(package=='A'+i){
+                correct[i]++;
+            }
+        }
+    }
+    for(int i=0; i<26; i++){
+        if(i>0) cout << " ";
+        cout << correct[i];
+    }
+    return 0;
+}

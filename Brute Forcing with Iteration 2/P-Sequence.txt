@@ -1,0 +1,158 @@
+문제
+The P-sequence is defined as follows.
+
+
+
+P
+1
+=
+1
+2
+=
+1
+
+P
+2
+=
+1
+2
++
+2
+2
+=
+5
+
+P
+3
+=
+1
+2
++
+2
+2
++
+3
+2
+=
+14
+
+...
+P
+N
+=
+∑
+N
+i
+=
+1
+i
+2
+=
+N
+(
+N
++
+1
+)
+(
+2
+N
++
+1
+)
+6
+.
+
+
+
+Write a program that, given an integer 
+x
+, outputs whether there exists an ordered triple 
+(
+i
+,
+j
+,
+k
+)
+ (
+1
+≤
+i
+,
+j
+,
+k
+) such that 
+P
+i
++
+P
+j
++
+P
+k
+=
+x
+.
+
+
+입력
+The first line will provide the number of test cases, 
+T
+.
+(
+3
+≤
+T
+≤
+100
+)
+
+
+From the second line to the (
+T
++
+1
+)-th line, the integer 
+x
+ is given.
+(
+1
+≤
+x
+≤
+5
+,
+000
+)
+
+
+출력
+For each 
+x
+, output 
+1
+ on a separate line if the ordered triple 
+(
+i
+,
+j
+,
+k
+)
+ exists; otherwise, output 
+0
+.
+
+
+예제 1 입력
+3
+9
+29
+800
+
+예제 1 출력
+0
+1
+1

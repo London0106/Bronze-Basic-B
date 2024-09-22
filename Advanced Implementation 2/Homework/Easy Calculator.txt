@@ -1,0 +1,31 @@
+by London
+문제
+Let's create an easily made calculator. 
+Given an equation consisting of n integers and n−1 operators, but only plus and minus, calculate the result by performing the operations from left to right, regardless of the operator precedence. 
+It is guaranteed that all of the numbers appears in the solving process are within int range.
+(during calculations, any decimal points resulting from division are truncated).
+
+입력
+The first line of input contains an integer n, the number of integers.
+(n is an integer less than 20)
+The second line contains the equation consisting of n integers and n−1 operators.
+(All integers are less than 100.)
+Only plus and minus appear as operators.
+
+출력
+Print the result of the equation calculated from left to right.
+
+
+예제 1 입력
+3
+4+7+2
+
+예제 1 출력
+13
+
+예제 2 입력
+7
+18-9-4-3-10+7-17
+
+예제 2 출력
+-18

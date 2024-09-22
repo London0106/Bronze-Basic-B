@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string S;
+    cin >> S;
+    int counter[26]={0};
+    for(int i=0; i<S.length(); i++){
+        char c=S[i];
+        counter[c-'a']++;
+    }
+    int result=0;
+    for(int i=0; i<26; i++){
+        result += counter[i]*(i+1);
+    }
+    cout << result;
+    return 0;
+}

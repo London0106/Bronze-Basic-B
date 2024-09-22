@@ -1,0 +1,62 @@
+문제
+There are 
+N
+ people sitting in a circle, numbered clockwise from 
+1
+ to 
+N
+. 
+They are playing a game of pass the towel. Initially, person number a is designated as 'it'. 
+This person passes the towel clockwise 
+K
+ spaces. The person who receives the towel becomes 'it'. 
+This process is repeated 
+Q
+ times. Write a program to determine the number of the person who is 'it' after the 
+Q
+ repetitions.
+
+
+The first person to be 'it' is person number 
+1
+.
+
+
+입력
+On the first line, integers 
+N
+, 
+K
+, and 
+Q
+ are provided, separated by a space.
+(
+1
+≤
+K
+<
+N
+≤
+100
+, 
+1
+≤
+Q
+≤
+10
+,
+000
+,
+000
+)
+
+
+출력
+Print the number of the person who becomes 'it' at the end.
+
+
+예제 1 입력
+7 1 10
+
+예제 1 출력
+4

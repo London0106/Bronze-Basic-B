@@ -1,0 +1,281 @@
+by London
+문제
+In Haru's modified chess variant, there are 
+N
+ black rooks placed on an 
+8
+×
+8
+ chessboard. 
+The coordinates on the chessboard are represented by 
+(
+x
+,
+y
+)
+, where 
+x
+=
+1
+,
+2
+,
+.
+.
+.
+,
+8
+ is replaced with 
+a
+,
+b
+,
+.
+.
+.
+,
+h
+ and 
+y
+ is represented by 
+1
+ to 
+8
+. 
+
+
+For every square on the chessboard, considering all black rooks moving once, output the number of rooks that can reach each square.
+
+
+Unlike regular chess, in this variant, the rook can move like a knight, as shown in the arrows below. 
+The rook can jump over other pieces and cannot move to a square occupied by another black piece. Additionally, the rook cannot move beyond the edges of the chessboard.
+
+
+
+The two pictures below are examples of two black rooks located at 
+(
+5
+,
+8
+)
+ and 
+(
+6
+,
+6
+)
+ respectively. 
+The rook located at 
+(
+5
+,
+8
+)
+ can move to a total of 12 squares by making a single move, reaching the following positions: 
+(
+1
+,
+8
+)
+, ..., 
+(
+4
+,
+8
+)
+, 
+(
+6
+,
+8
+)
+, 
+(
+7
+,
+8
+)
+, 
+(
+8
+,
+8
+)
+, 
+(
+5
+,
+7
+)
+, 
+(
+5
+,
+6
+)
+, 
+(
+5
+,
+5
+)
+, 
+(
+5
+,
+3
+)
+, 
+(
+5
+,
+2
+)
+, and 
+(
+5
+,
+1
+)
+.
+
+
+
+The rook located at 
+(
+6
+,
+6
+)
+ can move to a total of 11 squares by making a single move, reaching the following positions: 
+(
+1
+,
+6
+)
+, ..., 
+(
+5
+,
+6
+)
+, 
+(
+7
+,
+6
+)
+, 
+(
+8
+,
+6
+)
+, 
+(
+6
+,
+8
+)
+, 
+(
+6
+,
+5
+)
+, 
+(
+6
+,
+4
+)
+, 
+(
+6
+,
+3
+)
+, and 
+(
+6
+,
+1
+)
+.
+
+
+
+(Subtask 1) (10 pts) 
+1
+≤
+N
+≤
+2
+.
+(Subtask 2) (90 pts) 
+3
+≤
+N
+≤
+62
+.
+
+
+입력
+The information of the chessboard is provided from the first line to the eighth line, separated by spaces.
+
+
+the 
+j
+-th value in the 
+i
+-th line corresponds to the information of the square 
+(
+j
+,
+9
+−
+i
+)
+ on the chessboard.
+
+
+If the square 
+(
+j
+,
+9
+−
+i
+)
+ is represented as '.', it indicates an empty square.
+If it is represented as 'B', it means there is a black piece other than a rook on that square.
+If it is represented as 'W', it means there is a white piece on that square.
+If it is represented as 'R', it means there is a black rook on that square.
+
+
+출력
+For every square on the chessboard, considering all black rooks moving once, output the number of rooks that can reach each square in 
+8
+ lines, separated by spaces.
+
+
+예제 1 입력
+. . . . R . B .
+B B . . . B B .
+. . B . . R . B
+W . . B . . . B
+. W . W B . B W
+W . . . W . W .
+. . . W W W W W
+W . . . . . . .
+
+예제 1 출력
+1 1 1 1 0 2 0 1 
+0 0 0 0 1 0 0 0
+1 1 0 1 2 0 1 0
+0 0 0 0 1 1 0 0
+0 0 0 0 0 1 0 0
+0 0 0 0 1 1 0 0
+0 0 0 0 1 1 0 0
+0 0 0 0 1 1 0 0

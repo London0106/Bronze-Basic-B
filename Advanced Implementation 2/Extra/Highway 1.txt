@@ -1,0 +1,36 @@
+by London
+문제
+Haru is driving a car that consumes 1 liter of fuel per minute. 
+Haru wants to travel from the starting point to the destination, which takes N minutes.
+Initially, the car has M liters of fuel. 
+Excluding the destination and gas stations, if the car's remaining fuel becomes 0, Haru can no longer drive the car.
+
+Along the highway, there are K gas stations in order from the starting point. 
+The i-th gas station is located Di minutes away from the starting point and can refuel the car with Fi liters of fuel.
+
+Haru must always stop by a gas station on the highway to refuel.
+Can Haru reach the destination with the available fuel?
+
+(Subtask 1) (10 pts) 1≤K≤3.
+(Subtask 2) (90 pts) There are no additional constraints or conditions.
+
+입력
+The first line consists of three integers N, M, and K separated by spaces.
+(10≤N,M≤1,000, 1≤K≤10)
+
+From the second line to the (K+1)-th line, each line contains the information of the i-th gas station, Di and Fi, separated by spaces.
+Di is given without duplicates and in ascending order.
+(1≤Di<N, 1≤Fi≤100)
+
+출력
+If Haru can reach the destination, output 1;
+otherwise, output 0.
+
+예제 1 입력
+20 10 3
+5 5
+7 1
+10 2
+
+예제 1 출력
+0

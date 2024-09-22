@@ -1,0 +1,40 @@
+by London
+문제
+Haru and Lena are playing chess. 
+Given the information about the chessboard, print the absolute difference between the current value sum of Haru's pieces and the current value sum of Lena's pieces.
+The representation and value of the pieces are defined as follows:
+
+
+P : Pawn, value is 1.
+N : Knight, value is 3.
+B : Bishop, value is 3.
+R : Rook, value is 5.
+Q : Queen, value is 9.
+K : King, the value is infinite.
+
+Haru's pieces are prefixed with an h before the piece representation, while Lena's pieces are prefixed with the lowercase letter l (not to be confused with the number 1 or the lowercase letter i).
+
+입력
+The information of the chessboard is provided from the first line to the eighth line, separated by spaces.
+
+
+the j-th value in the i-th line corresponds to the information of the square 
+(j,9−i) on the chessboard.
+If the square (j,9−i) is represented as '.', it indicates an empty square.
+
+출력
+Print the absolute difference between the current value sum of Haru's pieces and the current value sum of Lena's pieces.
+
+
+예제 1 입력
+hR hN hB hQ hK hB hN hR
+hP hP hP hP hP hP hP hP
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+lP lP lP lP . lP lP lP
+lR lN lB lQ lK lB lN lR
+
+예제 1 출력
+1

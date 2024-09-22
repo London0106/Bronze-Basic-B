@@ -1,0 +1,100 @@
+문제
+In Haru's jumping game:
+
+
+
+
+Haru starts at position 
+0
+.
+
+Haru randomly selects one integer from the 
+N
+ integers in array 
+A
+ and jumps forward by that number of positions.
+For example, if 
+A
+=
+[
+5
+,
+7
+]
+, and Haru is at position 
+0
+, selecting 
+5
+ would make Haru jump to position 
+5
+. Haru can pick the same integer multiple times.
+
+Haru cannot jump backward.
+
+
+
+Given an integer 
+K
+, if Haru can strategically draw cards to reach position 
+K
+, print 
+1
+; otherwise, print 
+0
+.
+
+
+입력
+The first line contains two integers 
+N
+ and 
+K
+ separated by a space.
+(
+1
+≤
+N
+≤
+10
+, 
+1
+≤
+K
+≤
+10
+,
+000
+)
+
+
+The second line consists of 
+N
+ integers separated by spaces. These integers represent the elements of array 
+A
+, and the given numbers are all distinct.
+(
+1
+≤
+A
+i
+≤
+50
+)
+
+
+출력
+If Haru can strategically draw cards to reach position 
+K
+, print 
+1
+; otherwise, print 
+0
+.
+
+
+예제 1 입력
+3 6
+5 7 11
+
+예제 1 출력
+0

@@ -1,0 +1,74 @@
+by London
+문제
+The X-array is an array of size 
+N
+×
+N
+, with the 'O' characters arranged in an X-shape. 
+
+
+For 
+N
+=
+3
+, the X-array looks like the following:
+
+
+O . O
+. O .
+O . O
+
+For 
+N
+=
+5
+, the X-array looks like the following:
+
+
+O . . . O
+. O . O .
+. . O . .
+. O . O .
+O . . . O
+
+입력
+The first line is given an integer N.
+(
+2
+≤
+N
+≤
+50
+)
+
+
+출력
+Print the X-array of size 
+N
+×
+N
+.
+
+
+예제 1 입력
+3
+
+예제 1 출력
+O . O 
+. O .
+O . O
+
+예제 2 입력
+10
+
+예제 2 출력
+O . . . . . . . . O 
+. O . . . . . . O .
+. . O . . . . O . .
+. . . O . . O . . .
+. . . . O O . . . .
+. . . . O O . . . .
+. . . O . . O . . .
+. . O . . . . O . .
+. O . . . . . . O .
+O . . . . . . . . O

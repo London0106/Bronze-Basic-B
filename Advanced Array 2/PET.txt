@@ -1,0 +1,36 @@
+by London
+문제
+In the popular show "Dinner for Five", five contestants compete in preparing culinary delights. Every evening one of them makes dinner and each of other four then grades it on a scale from 1 to 5.
+The number of points a contestant gets is equal to the sum of grades they got. The winner of the show is of course the contestant that gets the most points.
+Write a program that determines the winner and how many points they got.
+
+
+입력
+Five lines, each containing 4 integers, the grades a contestant got.
+The contestants are numbered 1 to 5 in the order in which their grades were given.
+The input data will guarantee that the solution is unique.
+
+
+출력
+Output on a single line the winner's number and their points, separated by a space.
+
+
+예제 1 입력
+4 4 1 5
+3 4 2 4
+1 5 2 4
+1 2 3 4
+2 2 3 5
+
+예제 1 출력
+1 14
+
+예제 2 입력
+2 1 4 3
+2 1 1 4
+2 3 5 3
+1 2 1 2
+2 5 1 1
+
+예제 2 출력
+3 13

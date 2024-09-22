@@ -1,0 +1,39 @@
+by London
+문제
+Lena's computer got infected by ransomware spread by Haru, causing some file extensions to change to .haru.
+Given the names of N files including their extensions, determine the number of files that are infected by the ransomware.
+
+입력
+On the first line, the integer N is given.
+(1≤N≤10,000)
+
+From the second line onward, the names of the files are given, one per line for N lines. 
+Each file name is in the format X.Y, where X and Y are composed only of lowercase letters.
+(1≤|X|≤100,000, |Y|=4)
+
+출력
+Print the count of infected files with the .haru extension.
+
+
+예제 1 입력
+5
+ransomware.haru
+chicken.food
+dontreadthis.docx
+capture.xlsx
+helloalgo.html
+
+예제 1 출력
+1
+
+예제 2 입력
+6
+aaa.haru
+bbb.haru
+ccc.hary
+ddd.haru
+eee.haru
+fff.haro
+
+예제 2 출력
+4

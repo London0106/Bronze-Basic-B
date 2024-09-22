@@ -1,0 +1,133 @@
+문제
+There are 
+N
+ tower blocks, each stacked with 
+A
+i
+ blocks of height 
+1
+. 
+When cutting off the top part of all these tower blocks at heights 
+h
+=
+1
+, 
+h
+=
+2
+, …, 
+h
+=
+B
+, determine the number of blocks removed at each height 
+h
+.
+
+
+For the example below, given 
+A
+i
+=
+ [
+6
+, 
+5
+, 
+9
+, 
+2
+] and when 
+h
+=
+1
+,
+the number of blocks cut off is 
+5
++
+4
++
+8
++
+1
+=
+18
+.
+
+
+
+
+
+입력
+On the first line, integers 
+N
+ and 
+B
+ are provided, separated by a space.
+(
+1
+≤
+N
+≤
+1
+,
+000
+, 
+1
+≤
+B
+≤
+m
+a
+x
+(
+A
+)
+)
+
+
+On the second line, 
+A
+i
+ values are given, separated by a space.
+(
+1
+≤
+i
+≤
+N
+, 
+1
+≤
+A
+i
+≤
+1
+,
+000
+)
+
+
+출력
+For each 
+h
+=
+1
+, 
+h
+=
+2
+, ..., 
+h
+=
+B
+, print the number of blocks being cut off, one per line.
+
+
+예제 1 입력
+4 3
+6 5 9 2
+
+예제 1 출력
+18
+14
+11

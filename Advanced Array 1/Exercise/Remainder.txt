@@ -1,0 +1,24 @@
+by London
+문제
+Given integers A1, A2, ..., AN, and an integer K, let's define Bi as the remainder when Ai is divided by K for all 1≤i≤N.
+
+Print the counts of 0s, 1s, ..., (K−1)
+s among the elements in B, separated by spaces.
+
+입력
+The first line contains two integers N and K separated by a space.
+(2≤N≤100, 1≤K≤1,000)
+
+The second line contains N integers A1, A2, ..., AN separated by spaces.
+(1≤Ai≤100,000,000)
+
+출력
+Print the counts of 0s, 1s, ..., (K−1)
+s among the elements in B, separated by spaces.
+
+예제 1 입력
+7 6
+1 12 13 14 15 12 13
+
+예제 1 출력
+2 3 1 1 0 0

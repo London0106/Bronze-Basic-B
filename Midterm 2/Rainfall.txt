@@ -1,0 +1,35 @@
+문제
+Rainfall data is given for 
+31
+ days. 
+Write a program that prints the day with the maximum rainfall and the amount of rain on that day.
+If there are multiple days with the same maximum rainfall, print the information for the earliest day.
+
+
+입력
+On the first line, 
+31
+ integers are given, separated by spaces. Each integer is greater than or equal to 
+0
+ and less than or equal to 
+100
+.
+These represent the rainfall amounts in order from the 
+1
+st day, 
+2
+nd day, ... up to the 
+31
+st day.
+
+
+출력
+Print the day with the maximum rainfall and the amount of rain on that day separated by space.
+If there are multiple days with the same maximum rainfall, print the information for the earliest day.
+
+
+예제 1 입력
+4 6 4 2 1 5 4 1 2 3 8 2 5 8 3 1 10 6 1 9 9 7 4 10 8 1 1 7 2 1 2 
+
+예제 1 출력
+17 10

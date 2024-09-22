@@ -1,0 +1,75 @@
+by London
+문제
+Haru has to deliver 26 packages to 26 houses. 
+Each house is assigned a number from ‘A’ to ‘Z’, and the destination of each package is also designated with a random character from ‘A’ to ‘Z’. 
+When the packages delivered to each house from ‘A’ to ‘Z’ are given as a string, calculate the number of correctly delivered packages.
+
+입력
+From the first to the twenty-sixth line, the number of packages arrived at each house from 'A' to 'Z', and the information of the arrived packages are given, separated by a space. 
+The number of arrived packages is greater than or equal to 0 and less than or equal to 100,000.
+
+출력
+Print the number of correctly arrived packages from 'A' house to 'Z' house, separated by a space.
+
+
+예제 1 입력
+7 AABBCZZ
+6 AZAZAZ
+4 ALGO
+5 HELLO
+8 ECONOMIC
+10 SMARTPHONE
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+예제 1 출력
+2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+예제 2 입력
+1 A
+1 B
+1 C
+1 D
+1 E
+1 F
+1 G
+1 H
+1 I
+1 J
+1 K
+1 L
+1 M
+1 N
+1 O
+1 P
+1 Q
+1 R
+1 S
+1 T
+1 U
+1 V
+1 W
+1 X
+1 Y
+1 Z
+
+예제 2 출력
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 

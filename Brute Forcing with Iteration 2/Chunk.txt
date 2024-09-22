@@ -1,0 +1,74 @@
+문제
+Given a string 
+S
+ consisting only of numbers from 
+1
+ to 
+9
+.
+When the same numbers are adjacent to each other, let's call this cluster a "chunk".
+
+
+Calculate the following:
+
+
+
+∑
+ (size of the 
+i
+-th chunk
+2
+ 
+×
+ number written on the 
+i
+-th chunk).
+
+
+
+The answer is guaranteed to be within 
+2
+31
+−
+1
+.
+
+
+입력
+On the first line, the string 
+S
+ is given.
+(
+1
+≤
+|
+S
+|
+≤
+1
+,
+000
+,
+000
+)
+
+
+출력
+Print 
+∑
+ (size of the 
+i
+-th chunk
+2
+ 
+×
+ number written on the 
+i
+-th chunk)
+
+
+예제 1 입력
+11122233
+
+예제 1 출력
+39

@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int a, b;
+    cin >> a >> b;
+    int reversedA=(a%10)*100+(a/10%10)*10+(a/100);
+    int reversedB=(b%10)*100+(b/10%10)*10+(b/100);
+    if(reversedA>reversedB){
+        cout << reversedA;
+    }else{
+        cout << reversedB;
+    }
+    return 0;
+}

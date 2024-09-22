@@ -1,0 +1,142 @@
+by London
+문제
+Lena, who works at Algo’s Kitchen, received an order from the restaurant owner, Haru, to serve steak and grilled fish, one of each, to 
+N
+ tables within 
+M
+ minutes. 
+However, the oven is malfunctioning. It starts at 
+T
+1
+°C, then after 
+(
+T
+2
+−
+T
+1
+)
+ minutes, it heats up to 
+T
+2
+°C. It rises by 
+1
+°C every minute.
+After 
+1
+ minute, it cools down back to 
+T
+1
+°C. This process keeps repeating. 
+
+
+The steak needs to be cooked at a temperature of 
+S
+T
+°C or higher for at least 
+A
+ minutes, and the fish needs to be cooked at a temperature of 
+F
+T
+°C or higher for at least 
+B
+ minutes. Can Lena successfully fulfill all the orders?
+
+
+If Lena fails to complete the orders, Haru will destroy the dishes Lena has prepared.
+
+
+
+입력
+On the first line, integers 
+N
+, 
+M
+, 
+T
+1
+, and 
+T
+2
+ are given, separated by a spaces.
+(
+1
+≤
+N
+≤
+100
+, 
+1
+≤
+M
+≤
+10
+6
+, 
+1
+≤
+T
+1
+<
+T
+2
+≤
+300
+)
+
+
+On the second line, integers 
+S
+T
+, 
+F
+T
+, 
+A
+, and 
+B
+ are provided, separated by spaces.
+(
+1
+≤
+S
+T
+,
+F
+T
+≤
+300
+, 
+1
+≤
+A
+,
+B
+≤
+M
+)
+
+
+출력
+If Lena can complete all the orders within 
+M
+ minutes, print 
+1
+; otherwise, print 
+0
+.
+
+
+예제 1 입력
+5 100 140 170
+155 120 15 8
+
+예제 1 출력
+0
+
+예제 2 입력
+100 270 140 141
+140 140 1 2
+
+예제 2 출력
+1

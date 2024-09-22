@@ -1,0 +1,51 @@
+문제
+In a mine, a very large stone containing 
+N
+ (
+1
+≤
+N
+≤
+9
+) types of ores has been excavated, and a special machine is required to extract these ores from the stone. This special machine operates in the following manner:
+Starting from the left and moving in sequence, adjacent ores of the same type can be extracted all at once.
+For instance, if 
+N
+=
+2
+ and the sequence of ores is 
+11122211
+, it would take 
+3
+ seconds.
+
+
+Write a program to determine the minimum time needed to extract all the ores from this very large stone.
+
+
+입력
+On the first line, the information 
+S
+ about the very large stone is given.
+(
+1
+≤
+|
+S
+|
+≤
+1
+,
+000
+)
+
+
+출력
+Print the minimum time needed to extract all the ores from this very large stone.
+
+
+예제 1 입력
+11122211
+
+예제 1 출력
+3

@@ -1,0 +1,22 @@
+by London
+문제
+One person each from among N individuals who have been assigned numbers from 1 to N are gathered together to play the Mafia game. 
+In order to identify the Mafia, they decide to call out the number of the person they suspect. 
+Write a program to calculate how many times each of the N people was called.
+
+입력
+On the first line, an integer N is given.
+(1≤N≤1,000)
+
+On the second line, N integers are given separated by spaces. 
+These integers represent the numbers that N individuals have called, respectively.
+
+출력
+Print on a single line, separated by spaces, the number of times each person from 1 to N was called.
+
+예제 1 입력
+7
+1 1 2 2 7 6 5 
+
+예제 1 출력
+2 2 0 0 1 1 1

@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n, l;
+    cin >> n >> l;
+    int cups[n];
+    for(int i=0; i<n; i++){
+        cin >> cups[i];
+    }
+    int sum=0;
+    int count=0;
+    for(int i=0; i<n; i++){
+        sum+=cups[i];
+        if(sum<=l){
+            count++;
+        }else{
+            break;
+        }
+    }   
+    cout << count << endl;
+    return 0;
+}

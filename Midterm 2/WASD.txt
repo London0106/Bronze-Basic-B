@@ -1,0 +1,107 @@
+문제
+Lena starts at the 2D coordinate system at 
+(
+0
+,
+0
+)
+ and wants to move 
+N
+ times. 
+
+
+When his current position is 
+(
+x
+,
+y
+)
+, Lena moves according to the following commands:
+
+
+
+W : Moves to 
+(
+x
+,
+y
++
+1
+)
+
+A : Moves to 
+(
+x
+−
+1
+,
+y
+)
+
+S : Moves to 
+(
+x
+,
+y
+−
+1
+)
+
+D : Moves to 
+(
+x
++
+1
+,
+y
+)
+
+
+Write a program that determines the coordinate 
+(
+x
+,
+y
+)
+ where Lena stands after moving 
+N
+ times.
+
+
+입력
+On the first line, an integer 
+N
+ is given.
+(
+1
+≤
+N
+≤
+100
+,
+000
+)
+
+
+On the second line, a string 
+S
+ composed only of the characters W, A, S, and D is given. From left to right, these are the commands Lena should follow to move.
+(
+|
+S
+|
+=
+N
+)
+
+
+출력
+
+        
+      
+예제 1 입력
+10
+WWDAAWWSDD
+
+예제 1 출력
+1 3

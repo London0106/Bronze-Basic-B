@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int N, K;
+    cin >> N >> K;
+    vector<int> count(K);
+    for(int i=0; i<K; i++){
+        count[i]=0;
+    }
+    for(int i=0; i<N; i++){
+        int A;
+        cin >> A;
+        int remainder=A%K;
+        count[remainder]=count[remainder]+1;
+    }
+    for(int i=0; i<K; i++){
+        if(i>0) cout << " ";
+        cout << count[i];
+    }
+    cout << endl;
+    return 0;
+}

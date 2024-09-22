@@ -1,0 +1,72 @@
+by London
+문제
+The L-array is an array of size 
+N
+×
+N
+, where numbers are written in an L-shape in sequential order. 
+
+
+For 
+N
+=
+3
+, the L-array looks like the following:
+
+
+1 0 0
+2 0 0
+3 4 5
+
+For N=5, the L-array looks like the following:
+
+
+1 0 0 0 0
+2 0 0 0 0
+3 0 0 0 0
+4 0 0 0 0
+5 6 7 8 9
+
+입력
+The first line is given an integer 
+N
+.
+(
+2
+≤
+N
+≤
+50
+)
+
+
+출력
+Print the L-array of size 
+N
+×
+N
+.
+
+
+예제 1 입력
+3
+
+예제 1 출력
+1 0 0 
+2 0 0
+3 4 5
+
+예제 2 입력
+10
+
+예제 2 출력
+1 0 0 0 0 0 0 0 0 0 
+2 0 0 0 0 0 0 0 0 0
+3 0 0 0 0 0 0 0 0 0
+4 0 0 0 0 0 0 0 0 0
+5 0 0 0 0 0 0 0 0 0
+6 0 0 0 0 0 0 0 0 0
+7 0 0 0 0 0 0 0 0 0
+8 0 0 0 0 0 0 0 0 0
+9 0 0 0 0 0 0 0 0 0
+10 11 12 13 14 15 16 17 18 19

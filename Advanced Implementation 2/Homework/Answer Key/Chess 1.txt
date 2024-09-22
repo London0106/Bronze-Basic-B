@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string piece;
+    int haruValue=0, lenaValue=0;
+    int haruPieceValue, lenaPieceValue;
+    int p=1;
+    int n=3;
+    int b=3;
+    int r=5;
+    int q=9;
+    for(int i=0; i<8; i++){
+        for(int j=0; j<8; j++){
+            cin >> piece;
+            if(piece!="."){
+                char player=piece[0];
+                char pieceType=piece[1];
+                if(pieceType=='P'){
+                    haruPieceValue=p;
+                    lenaPieceValue=p;
+                }else if(pieceType=='N'){
+                    haruPieceValue=n;
+                    lenaPieceValue=n;
+                }else if(pieceType=='B'){
+                    haruPieceValue=b;
+                    lenaPieceValue=b;
+                }else if(pieceType=='R'){
+                    haruPieceValue=r;
+                    lenaPieceValue=r;
+                }else if(pieceType=='Q'){
+                    haruPieceValue=q;
+                    lenaPieceValue=q;
+                }else{
+                    haruPieceValue=0;
+                    lenaPieceValue=0;
+                }
+                if(player=='h'){
+                    haruValue+=haruPieceValue;
+                }else if(player=='l'){
+                    lenaValue+=lenaPieceValue;
+                }
+            }
+        }
+    }
+    int difference=haruValue-lenaValue;
+    if(difference<0){
+        difference=-difference;
+    }
+    cout << difference << endl;
+    return 0;
+}

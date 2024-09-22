@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    int bpm[1000000];
+    for (int i=0; i<n; i++){
+        cin >> bpm[i];
+    }
+    int increase=0;
+    int decrease=0;
+    for(int i=1; i<n; i++){
+        if(bpm[i]>bpm[i-1]){
+            increase++;
+        }else if(bpm[i]<bpm[i-1]){
+            decrease++;
+        }
+    }
+    cout << increase << " " << decrease;
+    return 0;
+}

@@ -1,0 +1,65 @@
+문제
+Approximately 100 years later, the string left by Haru was discovered, corroded and transformed. 
+Scholars began to look for data to decode the string left by Haru, and finally found out that the 
+S
+ in the original string was transformed into 
+T
+ due to corrosion. 
+
+
+Given 
+S
+, 
+T
+, and the transformed string, 
+R
+, find the original string left by Haru.
+T
+ appears only once in 
+R
+.
+
+
+입력
+The first line will provide 
+R
+, which consists only of lowercase letters.
+(
+10
+≤
+|
+R
+|
+≤
+1
+,
+000
+)
+
+
+The second line will provide S and T, which are composed only of lowercase letters, separated by a space.
+(
+5
+≤
+|
+S
+|
+=
+|
+T
+|
+≤
+10
+)
+
+
+출력
+Print the original string left by Haru.
+
+
+예제 1 입력
+hellorithm
+algoo rithm
+
+예제 1 출력
+helloalgoo

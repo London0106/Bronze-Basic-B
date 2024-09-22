@@ -1,0 +1,110 @@
+by London
+문제
+At the point 
+x
+=
+A
+i
+ on the mountain ridge, the decibel level of the echo is amplified by a factor of 
+2
+.
+If the current position of the echo is not on the mountain ridge(excluding 
+x
+=
+0
+), the decibel level decreases by 
+1
+.
+The decibel level does not decrease below 
+0
+.
+
+
+This mountain has a peculiar feature, allowing you to select a single mountain ridge where the decibel level of the echo can be amplified by a factor of 
+4
+.
+An echo with a decibel level of 
+D
+ is generated in the direction 
+x
+>
+0
+ from 
+x
+=
+0
+. Determine the maximum decibel level of the echo at point 
+x
+=
+B
+.
+
+
+입력
+On the first line, the number of mountain ridges 
+N
+, 
+B
+ and 
+D
+ are given, separated by a space.
+(
+1
+≤
+N
+≤
+30
+, 
+N
+≤
+B
+≤
+1
+,
+000
+, 
+1
+≤
+D
+≤
+1
+,
+000
+)
+
+
+On the second line, N integers representing A_i are provided, separated by spaces.
+(
+1
+≤
+A
+i
+≤
+B
+, 
+i
+≠
+j
+⇒
+A
+i
+≠
+A
+j
+)
+
+
+출력
+Print the maximum decibel level of the echo at point 
+x
+=
+B
+.
+
+
+예제 1 입력
+3 9 4
+5 1 7
+
+예제 1 출력
+48

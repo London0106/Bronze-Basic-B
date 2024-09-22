@@ -1,0 +1,25 @@
+by London
+문제
+Given a word S consisting of lowercase English letters, Haru want to encrypt it. 
+
+
+Encryption follows the following rule:
+'a' becomes 'b', 'b' becomes 'c', 'c' becomes 'd', ..., 'y' becomes 'z', 'z' becomes 'a'.
+
+
+Write a program to encrypt word S and print the resulting encrypted word.
+
+
+입력
+The first line contains the word S.
+(1≤|S|≤100)
+
+출력
+Print the resulting encrypted word.
+
+
+예제 1 입력
+gdkkn
+
+예제 1 출력
+hello

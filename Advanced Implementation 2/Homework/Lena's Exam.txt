@@ -1,0 +1,26 @@
+by London
+문제
+Lena went to take the dungeon entry permit test issued by the kingdom. 
+The test consists of N questions, and Lena's selected answers and the correct answers are given. 
+Write a program to calculate the number of questions Lena answered correctly.
+
+입력
+The first line consists of an integer N.
+(1≤N≤200)
+The second line consists of N integers separated by spaces.
+These are Lena's selected answers from question 1 to N.
+The third line consists of N integers separated by spaces.
+These are the correct answers to questions 1 to N.
+Lena's selected answers and the correct answers are integers between 1 and 5 (inclusive).
+
+출력
+Print the number of questions Lena answered correctly.
+
+
+예제 1 입력
+5
+1 4 1 4 1
+1 2 3 2 1
+
+예제 1 출력
+2

@@ -1,0 +1,83 @@
+by London
+문제
+Three cars want to park in Haru's parking lot. 
+If only one car is parked, the revenue is 
+A
+ won per minute. 
+If two cars are parked, the revenue is 
+B
+ won per minute. 
+And if three cars are parked, the revenue is 
+C
+ won per minute. 
+
+
+Calculate the total revenue Haru earns.
+
+
+입력
+The first line contains three integers 
+A
+, 
+B
+, and 
+C
+ separated by spaces.
+(
+1
+≤
+A
+<
+B
+<
+C
+≤
+10
+,
+000
+)
+
+
+From the second line to the fourth line, there are integers separated by spaces.
+t
+1
+ represents the time when a car parked, and 
+t
+2
+ represents the time when the car left the parking lot.
+(
+1
+≤
+t
+1
+<
+t
+2
+≤
+1
+,
+000
+)
+
+
+Note that 
+t
+1
+ and 
+t
+2
+ are inclusive of the parking time.
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+10 20 30
+1 5
+2 5
+3 6
+
+예제 1 출력
+130

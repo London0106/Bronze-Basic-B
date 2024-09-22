@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){ 
+    int n, a;
+    cin >> n >> a;
+    int harvests[100000];
+    for(int i=0; i<n; i++){
+        cin >> harvests[i];
+    }
+    int olivesOnTree=0;
+    for(int i=0; i<n; i++){
+        olivesOnTree+=a;
+        if(olivesOnTree<harvests[i]){
+            olivesOnTree=0;
+        }else{
+            olivesOnTree-=harvests[i];
+        }
+    }
+    cout << olivesOnTree << endl;
+    return 0;
+}

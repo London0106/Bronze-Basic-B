@@ -1,0 +1,30 @@
+by London
+문제
+Algo-Bookstore is selling N books. 
+The owner of Algo-Bookstore, Haru, wants to find out the best-selling book for each week from the 1-st to the M-th week. Help Haru.
+
+입력
+On the first line, integers N and M are given, separated by a space.
+(2≤N≤100, 1≤M≤5,000)
+
+From the second line, N integers are given.
+This means that the i-th book has been sold Ai times.
+The value on the far left represents the number of copies sold for the 1-st book, and the value on the far right represents the number of copies sold for the N-th book.
+(1≤Ai≤100)
+
+출력
+Over M lines, print the number of the best-selling book for each week.
+There is no case with multiple answers.
+
+예제 1 입력
+3 4
+1 2 3
+4 3 2
+9 9 10
+10 11 10
+
+예제 1 출력
+3
+1
+3
+2

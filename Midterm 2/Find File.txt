@@ -1,0 +1,74 @@
+문제
+Haru has placed 
+N
+ files in a folder and wants to count the number of files whose first and last letters are 
+a
+ and 
+b
+, respectively. 
+Write a program that outputs the count of files with 
+a
+ as the first letter and 
+b
+ as the last letter.
+
+
+입력
+On the first line, an integer N and characters 
+a
+ and 
+b
+ are given, separated by a space.
+(
+1
+≤
+N
+≤
+100
+,
+000
+, 
+a
+, 
+b
+ are lowercase English letters.)
+
+
+From the second line to the (
+N
++
+1
+)-th line, a string 
+S
+i
+ is provided. This represents the name of a file, and it consists only of lowercase English letters.
+(
+1
+≤
+|
+S
+i
+|
+≤
+100
+)
+
+
+출력
+Print the count of files with 
+a
+ as the first letter and 
+b
+ as the last letter.
+
+
+예제 1 입력
+5 a e
+apple
+ant
+algo
+pineapple
+whale
+
+예제 1 출력
+1

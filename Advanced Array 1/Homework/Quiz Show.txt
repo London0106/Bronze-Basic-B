@@ -1,0 +1,68 @@
+by London
+문제
+Lena decided to participate in a quiz show organized by the kingdom to earn money for buying weapons. 
+There are a total of 
+N
+ questions, and only one participant with a number from 
+1
+ to 
+M
+ can score points for each question.
+
+
+When Lena's participant number is 
+K
+, write a program to output the number of questions he answered correctly.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+1
+≤
+N
+≤
+1
+,
+000
+)
+
+
+The second line contains 
+N
+ integers. Each integer represents the participant number who answered the corresponding question correctly.
+(
+1
+≤
+A
+i
+≤
+10
+)
+
+
+The third line contains an integer 
+K
+.
+(
+1
+≤
+K
+≤
+10
+)
+
+
+출력
+Print the number of questions Lena answered correctly.
+
+
+예제 1 입력
+10
+1 2 3 4 5 5 5 4 1 2
+1
+
+예제 1 출력
+2

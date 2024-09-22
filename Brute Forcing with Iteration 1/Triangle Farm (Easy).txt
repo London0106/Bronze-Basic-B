@@ -1,0 +1,37 @@
+문제
+Haru wants to split a rod of length 
+N
+ into three pieces and use these pieces to form the perimeter of a triangle.
+
+
+Write a program to determine the number of distinct triangles that can be made.
+
+
+입력
+On the first line, an integer 
+N
+ is given.
+(
+1
+≤
+N
+≤
+100
+)
+
+
+출력
+Print the number of distinct triangles that can be made.
+
+
+예제 1 입력
+12
+
+예제 1 출력
+3
+
+예제 2 입력
+3
+
+예제 2 출력
+1

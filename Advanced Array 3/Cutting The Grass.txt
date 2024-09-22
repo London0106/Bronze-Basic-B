@@ -1,0 +1,160 @@
+by London
+문제
+In a square garden with a grid shape of length 
+N
+ both horizontally and vertically, we want to mow the grass. 
+Q
+ queries are given. The information of the queries is as follows:
+
+
+
+L 
+a
+ 
+b
+: Mow all the grass in the grids on 
+x
+=
+1
+, 
+2
+, …, 
+a
+ / 
+y
+=
+b
+.
+R 
+a
+ 
+b
+: Mow all the grass in the grids on 
+x
+=
+a
+, 
+a
++
+1
+, …, 
+N
+ / 
+y
+=
+b
+.
+U 
+a
+ 
+b
+: Mow all the grass in the grids on 
+x
+=
+a
+ / 
+y
+=
+b
+, 
+b
+−
+1
+, …, 
+1
+.
+D 
+a
+ 
+b
+: Mow all the grass in the grids on 
+x
+=
+a
+ / 
+y
+=
+b
+, 
+b
++
+1
+, …, 
+N
+.
+
+
+
+If the grass in the grid to be mowed is already cut, it is not mowed again.
+Initially, the grass in the garden is all grown. The top-left coordinate of the garden is 
+(
+1
+,
+1
+)
+, the top-right coordinate is 
+(
+N
+,
+1
+)
+, and the bottom-right coordinate is 
+(
+N
+,
+N
+)
+.
+
+
+Write a program that calculates the area of the mowed grass.
+
+
+입력
+On the first line, integers 
+N
+ and 
+Q
+ are given, separated by a space.
+(
+1
+≤
+N
+≤
+1
+,
+000
+, 
+1
+≤
+Q
+≤
+500
+)
+
+
+From the second line, the information for the 
+Q
+ queries is given, one per line, separated by a space.
+(
+1
+≤
+a
+,
+b
+≤
+N
+)
+
+
+출력
+Print the area of the mowed grass.
+
+
+예제 1 입력
+5 2
+L 1 1
+R 1 2
+
+예제 1 출력
+6

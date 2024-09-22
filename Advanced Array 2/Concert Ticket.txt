@@ -1,0 +1,96 @@
+by London
+문제
+Lena and her friends came to watch a performance at the theater operated by Haru. 
+The theater has 
+N
+ seats arranged in a straight line, with the leftmost seat being seat number 
+1
+, and the rightmost seat being seat number 
+N
+. 
+
+
+There are 
+Q
+ queries given, and you need to write a program to perform these queries. The information for each query is as follows:
+
+
+1 
+a
+ 
+b
+ - Purchase all seats from seat 
+a
+ to seat 
+b
+ (inclusive). If any seat in this range is already purchased, do not buy it again.
+2 
+a
+ 
+b
+ - Refund all seats from seat 
+a
+ to seat 
+b
+ (inclusive). If any seat in this range is already empty, do not process the refund for it.
+
+
+입력
+The first line contains two integers 
+N
+ and 
+Q
+ separated by a space.
+(
+1
+≤
+N
+≤
+10
+,
+000
+, 
+1
+≤
+Q
+≤
+8
+,
+000
+)
+
+
+From the second line to the (
+Q
++
+1
+)th line, the information for each query is given, separated by spaces.
+(
+1
+≤
+a
+<
+b
+≤
+N
+)
+
+
+출력
+Print the total number of seats purchased by Lena among seats numbered from 
+1
+ to 
+N
+.
+
+
+예제 1 입력
+100 5
+1 27 34
+1 1 33
+2 32 33
+2 32 34
+1 71 72
+
+예제 1 출력
+33

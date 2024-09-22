@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    int result;
+    char op;
+    int number;
+    cin >> result;
+    for(int i=1; i<n; i++){
+        cin >> op >> number;
+        if(op=='+'){
+            result+=number;
+        }else if(op=='-'){
+            result-=number;
+        }
+    }
+    cout << result;
+    return 0;
+}

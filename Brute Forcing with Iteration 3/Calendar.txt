@@ -1,0 +1,81 @@
+문제
+Today is the 
+B
+-th day of month 
+A
+ and it's Monday. 
+Let's assume month 
+A
+ has days from the 
+1
+-st to the 
+C
+-th day.
+
+
+Given 
+B
+ and 
+C
+, write a program that prints the calendar for month 
+A
+.
+
+
+입력
+On the first line, integers 
+B
+ and 
+C
+ are given, separated by a space.
+(
+1
+≤
+B
+≤
+C
+≤
+31
+)
+
+
+출력
+Over 
+N
+ lines, for each week's day 
+j
+, print the day of the month separated by a space. 
+If there is no such day in that week, print '-' instead.
+
+
+The example below is for when 
+B
+=
+9
+ and 
+C
+=
+31
+.
+
+
+- - - - - - 1
+2 3 4 5 6 7 8
+9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30 31 - - - - -
+
+It represents Monday, Tuesday, ..., Sunday in order from the left.
+
+
+예제 1 입력
+9 31
+
+예제 1 출력
+- - - - - - 1 
+2 3 4 5 6 7 8 
+9 10 11 12 13 14 15 
+16 17 18 19 20 21 22 
+23 24 25 26 27 28 29 
+30 31 - - - - - 
