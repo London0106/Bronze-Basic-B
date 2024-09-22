@@ -1,0 +1,32 @@
+by London
+문제
+Haru and Lena have 7 cards each, numbered from 1 to 7, to determine the winner. 
+They decide to play a game where, in each turn, they select one card from their hand and place it on the table. 
+The person who placed the card with the higher value earns 1 point.
+If they both placed the same card, neither of them earns any points.
+Once a card is placed, it cannot be used again. 
+
+
+Write a program to determine who wins the game and output the result.
+There are no inputs where the scores of two individuals are the same.
+
+입력
+In seven lines, there will be integers X and Y separated by a space. 
+X represents the card placed by Haru, and Y represents the card placed by Lena.
+
+
+출력
+If Haru wins, print "Haru". If Lena wins, print "Lena".
+
+
+예제 1 입력
+1 7
+2 1
+3 2
+5 6
+6 5
+4 3
+7 4
+
+예제 1 출력
+Haru

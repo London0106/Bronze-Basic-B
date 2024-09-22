@@ -1,0 +1,28 @@
+문제
+You have discovered an encrypted text that appears to have been written a long time ago.
+You want to investigate how many occurrences there are of the letter "C" and the substring "CC" in the given text.
+Write a program that takes a string with a length of up to 100 characters as input and determines the count of occurrences of the letter "C" and the substring "CC". Note that the letter case is not considered, so "cC" is considered the same as "CC".
+
+
+입력
+The first line contains a string with a length of up to 100 characters. The characters are all uppercase or lowercase letters. Since the case is not considered, there can be two possible cases for "C" and four different cases for "CC".
+
+
+출력
+Output the count of occurrences of the letter "C" found in the string on the first line.
+Output the count of occurrences of the substring "CC" found in the string on the second line.
+
+
+예제 1 입력
+cCCc
+
+예제 1 출력
+4
+3
+
+예제 2 입력
+cstring
+
+예제 2 출력
+1
+0

@@ -1,0 +1,33 @@
+by London
+문제
+A string is an array of characters, so we can access a specific character just like accessing the value of an array.
+
+
+For example, if s1 is "helloalgo," we can access the 'a' at the sixth position using s1[5].
+
+
+Given a string and a position, let's try to output the character at that position!
+
+
+입력
+A string without any spaces is given on the first line.
+An integer representing the position is given on the second line. The inputted number is smaller than the length of the string.
+
+
+출력
+Output the character at the specified position.
+
+
+예제 1 입력
+helloalgo
+6
+
+예제 1 출력
+a
+
+예제 2 입력
+helloc++
+7
+
+예제 2 출력
++

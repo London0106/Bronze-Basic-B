@@ -1,0 +1,30 @@
+by London
+문제
+You went to a delicious ramen restaurant.
+In this restaurant, you can add as many eggs as you want to your ramen.
+The basic price of the ramen is 7000 won, and each additional egg costs an extra 1000 won.
+You want to have eggs, but you feel like it would be too expensive to just add them blindly!
+You want to think about whether to have eggs or not within five decisions.
+Let's say "o" represents the decision to add an egg, and "x" represents the decision not to add an egg.
+Given a decision string with a length of at most 5, let's calculate the ramen price that needs to be paid.
+
+
+입력
+A string of length at most 5 is given. The string consists only of "o" and "x" characters.
+
+
+출력
+Output the price of the ramen that needs to be paid.
+
+
+예제 1 입력
+xoxxo
+
+예제 1 출력
+9000
+
+예제 2 입력
+xox
+
+예제 2 출력
+8000

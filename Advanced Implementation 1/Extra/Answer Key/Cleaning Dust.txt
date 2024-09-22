@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n, k;
+    cin >> n >> k;
+    int w[1000];
+    for(int i=0; i<n; i++){
+        cin >> w[i];
+    }
+    int max=0;
+        int sum=0;
+        int counter=1;
+        for(int i=0; i<n; i++){
+            sum+=w[i];
+            if(sum>k){
+                int a = k-(sum-w[i]);
+                int b = sum-k;
+                if(a>b){
+                    cout << counter;
+                }else if(a==b){
+                    cout << counter;
+                }else{
+                    cout << counter-1;
+                }
+                return 0;
+            }
+            counter++;
+		}
+		cout << counter-1;
+    return 0;
+}

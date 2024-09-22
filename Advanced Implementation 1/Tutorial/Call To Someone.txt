@@ -1,0 +1,55 @@
+by London
+문제
+Haru has a very old rotary telephone.
+
+If Haru wants to make a call, they need to rotate the dial to the corresponding number for each letter in the name of the person they want to call.
+The time it takes to move to a character on the dial is the same as the numerical value found on that character. For example, it takes 
+2
+ seconds to move to A.
+Additionally, after dialing each digit, the rotary dial returns to its initial position, and to dial the next number, the dial must be rotated from the starting position again.
+
+
+To call Lena, Haru simply needs to dial the numbers corresponding to each letter in her name LENA. For instance, LENA corresponds to the numbers 5362.
+
+
+Write a program to calculate the time required for Haru to make a call to the person whose name is given.
+
+
+(Subtask 1) (10 pts) 
+1
+≤
+|
+S
+|
+≤
+10
+.
+(Subtask 2) (90 pts) There are no additional constraints or conditions.
+
+
+입력
+The first line contains the name 
+S
+ of the person Haru wants to call.
+S
+ consists of uppercase English letters.
+(
+1
+≤
+|
+S
+|
+≤
+50
+)
+
+
+출력
+Print the time required to make the call.
+
+
+예제 1 입력
+LENA
+
+예제 1 출력
+16

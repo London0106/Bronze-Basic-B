@@ -1,0 +1,26 @@
+by London
+문제
+The length of a string can be obtained by appending a dot after the string's name and using the function "size()".
+For example, it would be "s1.size()".
+Now, given a string, let's output its length!
+
+
+입력
+A string without any spaces is given.
+
+
+출력
+Output the length of the string.
+
+
+예제 1 입력
+helloalgo
+
+예제 1 출력
+9
+
+예제 2 입력
+helloc++
+
+예제 2 출력
+8

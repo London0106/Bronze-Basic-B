@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int R,C,ZR,ZC;
+	cin >> R >> C >> ZR >> ZC;
+	char arr[R][C];
+	for(int i=0; i<R; i++){
+		for(int j=0; j<C; j++){
+			cin >> arr[i][j];
+		}
+	}
+	for(int i=0; i<R; i++){
+		for(int zr=0; zr<ZR; zr++){
+			for(int j=0; j<C; j++){
+				for(int zc=0; zc<ZC; zc++){
+					cout << arr[i][j];
+				}
+			}
+			cout << endl;
+		}
+	}
+	return 0;
+}

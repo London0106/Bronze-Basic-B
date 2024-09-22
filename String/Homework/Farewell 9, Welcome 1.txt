@@ -1,0 +1,25 @@
+by London
+문제
+Given a number less than 1,000,000, let's replace all the occurrences of 9 in each digit with 1 and output it!
+
+
+입력
+An integer less than 1,000,000 is given.
+
+
+출력
+Output the number after replacing all the occurrences of 9 in each digit with 1.
+If there are no 9s in the number, output it as it is.
+
+
+예제 1 입력
+1995
+
+예제 1 출력
+1115
+
+예제 2 입력
+608
+
+예제 2 출력
+608

@@ -1,0 +1,30 @@
+by London
+문제
+Haru is cleaning the room. In front of Haru, there are N piles of dust in sequence, and each pile has a weight of Wi. 
+Haru starts cleaning from the first dust pile and can stop in the middle of the process, in which case Haru cannot clean the remaining dust piles.
+
+
+Haru wants to clean as many dust piles as possible while keeping the total weight of the cleaned piles as close to K as possible. 
+In this case, what is the maximum number of dust piles that Haru can clean?
+
+
+입력
+The first line consists of two integers N and K separated by a space.
+(1≤N≤1,000, 1≤K≤1,000,000)
+
+The second line consists of N integers separated by spaces. 
+Wi represents the weight of the i-th dust pile.
+The weight of the dust at the beginning is less than or equal to 2×K.
+(1≤Wi≤1,000)
+
+
+출력
+Print the maximum number of dust piles that Haru can clean.
+
+
+예제 1 입력
+5 30
+10 5 10 4 2
+
+예제 1 출력
+5

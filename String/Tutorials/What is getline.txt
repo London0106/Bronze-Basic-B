@@ -1,0 +1,27 @@
+by London
+문제
+Using the method "cin >> s1" will not allow us to input strings with spaces.
+To input a string with spaces, we can use "getline(cin, s1)".
+Let's give it a try!
+(When outputting, you can follow the same format as before.)
+
+
+입력
+A string is given. The string may contain spaces.
+
+
+출력
+Output the inputted string as it is.
+
+
+예제 1 입력
+helloalgo
+
+예제 1 출력
+helloalgo
+
+예제 2 입력
+hello c++
+
+예제 2 출력
+hello c++

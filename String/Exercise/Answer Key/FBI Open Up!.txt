@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a = 0, b = 0, c = 0;
+    for (int i = 1; i <= 5; i++) {
+        string codeName;
+        cin >> codeName;
+        if(codeName.find("FBI") != string::npos){
+            if (a == 0) {
+                a = i;
+            } else if (b == 0) {
+                b = i;
+            } else {
+                c = i;
+            }
+        }
+    }
+    if (a == 0 && b == 0 && c == 0) {
+        cout << "HE GOT AWAY!" << endl;
+    } else {
+        if (a != 0) cout << a << " ";
+        if (b != 0) cout << b << " ";
+        if (c != 0) cout << c << " ";
+        cout << endl;
+    }
+    return 0;
+}

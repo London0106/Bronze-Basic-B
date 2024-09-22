@@ -1,0 +1,39 @@
+by London
+문제
+Let's use ".size()" and a loop statement to output each character of the string on a separate line!
+
+
+입력
+A string without any spaces is given.
+
+
+출력
+Output each character of the string on a separate line.
+
+
+예제 1 입력
+helloalgo
+
+예제 1 출력
+h
+e
+l
+l
+o
+a
+l
+g
+o
+
+예제 2 입력
+helloc++
+
+예제 2 출력
+h
+e
+l
+l
+o
+c
++
++

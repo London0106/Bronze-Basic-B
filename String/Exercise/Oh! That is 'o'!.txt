@@ -1,0 +1,23 @@
+문제
+Let's use ".size()" and a loop statement to output all the positions of 'o' within the given string!
+
+
+입력
+A string without any spaces is given.
+
+
+출력
+Output all the positions of 'o' within the inputted string. If 'o' is not in the string, don't output anything.
+
+
+예제 1 입력
+helloalgo
+
+예제 1 출력
+5 9 
+
+예제 2 입력
+stringisfun
+
+예제 2 출력
+ 

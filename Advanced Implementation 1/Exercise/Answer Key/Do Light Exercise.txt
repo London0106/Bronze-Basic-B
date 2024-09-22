@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+    int count1 = 0, count2 = 0, count3 = 0;
+    int exercise;
+    for (int i = 0; i < N; ++i) {
+        cin >> exercise;
+        if (exercise == 1) {
+            count1++;
+        } else if (exercise == 2) {
+            count2++;
+        } else if (exercise == 3) {
+            count3++;
+        }
+    }
+    int sets = min(count1, min(count2, count3));
+    cout << sets << endl;
+    return 0;
+}

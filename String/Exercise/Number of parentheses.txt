@@ -1,0 +1,23 @@
+문제
+Let's write a program that counts the number of opening and closing parentheses in a string consisting of parentheses.
+
+
+입력
+A string consisting of parentheses is given.
+
+
+출력
+Output the count of opening parentheses and closing parentheses, respectively.
+
+
+예제 1 입력
+((())()(()))
+
+예제 1 출력
+6 6
+
+예제 2 입력
+(())()())
+
+예제 2 출력
+4 5

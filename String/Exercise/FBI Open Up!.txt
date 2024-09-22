@@ -1,0 +1,32 @@
+문제
+Let's write a program to find the FBI agent among five agents!
+The FBI agent has the letters "FBI" in their code name.
+
+
+입력
+Five lines containing the code names of the agents are given. The code names consist of uppercase letters, numbers 0-9, and dashes (-), with a maximum length of 10 characters.
+
+
+출력
+Output the FBI agents on a single line, separated by a space. The output should indicate the order of the agents as they appear in the input, in ascending order. If there are no FBI agents, Output "HE GOT AWAY!"
+
+
+예제 1 입력
+N-FBI1
+9A-USKOK
+I-NTERPOL
+G-MI6
+RF-KGB1
+
+예제 1 출력
+1
+
+예제 2 입력
+N321-CIA
+F3-B12I
+F-BI-12
+OVO-JE-CIA
+KRIJUMCAR1
+
+예제 2 출력
+HE GOT AWAY!

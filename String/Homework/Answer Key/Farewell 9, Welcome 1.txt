@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int num;
+    cin >> num;
+    string numStr=to_string(num);
+    for (char& digit : numStr){
+        if (digit=='9'){
+            digit='1';
+        }
+    }
+    cout << numStr << endl;
+    return 0;
+}

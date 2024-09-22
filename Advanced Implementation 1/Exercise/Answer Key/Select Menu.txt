@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int N, M, K;
+    cin >> N >> M >> K;
+    int min_side=INT_MAX;
+    int min_main=INT_MAX;
+    int min_appetizer=INT_MAX;
+	for(int i=0; i<N; i++){
+        int price;
+        cin >> price;
+        if(price<min_side){
+            min_side=price;
+        }
+    }
+    for(int i=0; i<M; i++){
+        int price;
+        cin >> price;
+        if(price<min_main){
+            min_main=price;
+        }
+    }
+    for(int i=0; i<K; i++){
+        int price;
+        cin >> price;
+        if(price<min_appetizer){
+            min_appetizer = price;
+        }
+    }
+    int min_cost=min_side+min_main+min_appetizer;
+    cout << min_cost << endl;
+    return 0;
+}

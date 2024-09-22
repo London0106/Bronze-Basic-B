@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int main(){
+    string decision;
+    cin >> decision;
+    int basePrice = 7000;
+    int eggPrice = 1000;
+    int totalPrice = basePrice;
+    for (char c : decision){
+        if (c == 'o'){
+            totalPrice+=eggPrice;
+        }
+    }
+    cout << totalPrice << endl;
+    return 0;
+}

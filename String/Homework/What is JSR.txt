@@ -1,0 +1,26 @@
+by London
+문제
+While reading her friends' notes, Lily came across the word "JSR Club" and became curious about what "JSR" means.
+Pondering over the meaning of "JSR," Lily discovered that it is an abbreviation of the names of the three musketeers: James, Sirius, and Remus.
+In this way, when three names are given separated by spaces, let's output the club name by concatenating only the first letters of each name.
+
+
+입력
+Three words are given separated by spaces.
+
+
+출력
+Output the club name by concatenating the first letters of each word.
+
+
+예제 1 입력
+James Sirius Remus
+
+예제 1 출력
+JSR
+
+예제 2 입력
+Harry Ronald Hermione
+
+예제 2 출력
+HRH

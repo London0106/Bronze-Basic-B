@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int main(){
+    string word1, word2, word3;
+    cin >> word1 >> word2 >> word3;
+    if(word1.back()==word2.front()&&word2.back()==word3.front()){
+        cout << "yes" << endl;
+    }else{
+        cout << "no" << endl;
+    }
+    return 0;
+}

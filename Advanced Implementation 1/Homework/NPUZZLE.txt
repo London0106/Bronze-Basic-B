@@ -1,0 +1,44 @@
+by London
+문제
+N-puzzle is a puzzle that goes by many names and has many variants. In this problem we will use the
+15-puzzle. It consists of a 4-by-4 grid of sliding squares where one square is missing. The squares are
+labeled with uppercase letters 'A' through 'O', with the desired layout as follows:
+
+
+A	B	C	D
+E	F	G	H
+I	J	K	L
+M	N	O	.
+
+It can be useful (for example, when solving the puzzle using a computer) to define the "scatter" of a
+puzzle as the sum of distances between each square's current position and its position in the desired
+layout. The distance between two squares is their Manhattan distance (the absolute value of the sum of
+differences between the two rows and the two columns).
+Write a program that calculates the scatter of the given puzzle.
+
+
+입력
+Four lines of input contain four characters each, representing the state of the puzzle.
+
+
+출력
+Output the scatter of the puzzle on a single line.
+
+
+예제 1 입력
+ABCD
+EFGH
+IJKL
+MNO.
+
+예제 1 출력
+0
+
+예제 2 입력
+ABCD
+EFGH
+IJK.
+MNOL
+
+예제 2 출력
+1

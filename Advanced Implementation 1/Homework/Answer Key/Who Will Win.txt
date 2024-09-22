@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int x[7];
+	int y[7];
+	int haru = 0;
+	int lena = 0;
+	for(int i=0; i<7; i++){
+		cin >> x[i] >> y[i];
+	}
+	for(int i=0; i<7; i++){
+		if(x[i] > y[i]){
+			haru++;
+		}else if(y[i] > x[i]){
+			lena++;
+		}else{
+			break;
+		}
+	}
+	if(haru>lena){
+		cout << "Haru";
+	}else{
+		cout << "Lena";
+	}
+	return 0;
+}

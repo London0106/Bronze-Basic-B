@@ -1,0 +1,11 @@
+by London
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	string s;
+	int x;
+	cin >> s >> x;
+	cout << s[x-1] << "\n";
+	return 0;
+}

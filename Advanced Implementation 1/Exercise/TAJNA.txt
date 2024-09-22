@@ -1,0 +1,34 @@
+by London
+문제
+Every evening, little Ivica sends secret messages to little Marica through e-mail. Knowing Ivica's e-letter travels unguarded through the network on its way to Marica's e-mailbox, they have decided to encrypt every message using the following algorithm:
+
+
+• Suppose Ivica's message consists of N characters.
+• Ivica must first find a matrix consisting of R rows and C columns such that R ≤ C and R·C = N. If there is more than one such matrix, Ivica chooses the one with the most rows.
+• Ivica writes his message into the matrix in row-major order. In other words, he writes the first segment of the message into the first row, the second segment into the second row and so on.
+• The message he sends to Marica is the matrix read in column-major order.
+
+
+Marica has grown tired of spending her precious time deciphering Ivica's messages, so you must write a program to do it for her.
+
+
+입력
+The input contains the received message, a string of lowercase letters of the English alphabet (with no spaces).
+The number of letters will be between 1 and 100.
+
+
+출력
+Output the original (decrypted) message.
+
+
+예제 1 입력
+tttaaaooo
+
+예제 1 출력
+taotaotao
+
+예제 2 입력
+mfmioirdrkokoro
+
+예제 2 출력
+mirkofodormirko

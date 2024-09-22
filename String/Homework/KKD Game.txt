@@ -1,0 +1,31 @@
+by London
+문제
+Kungkungdda(KKD) is a type of word chain game.
+
+
+Given three words, let's determine if the KKD game can proceed normally or not.
+
+
+입력
+Three words are given separated by spaces.
+
+
+출력
+If the Kungkungdda game can proceed with the given three words, output "yes". Otherwise, output "no".
+
+
+예제 1 입력
+apple
+elephant
+triangle
+
+예제 1 출력
+yes
+
+예제 2 입력
+hey
+hello
+algo
+
+예제 2 출력
+no

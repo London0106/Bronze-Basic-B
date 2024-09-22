@@ -1,0 +1,70 @@
+by London
+문제
+After working out, Lena feels hungry and wants to go to a nearby restaurant to eat. 
+As Lena likes to save money, she wants to spend as little as possible.
+
+
+When ordering one side menu, one main menu, and one appetizer menu, write a program to calculate and print the minimum cost Lena can spend at the restaurant.
+
+
+입력
+The first line contains three integers 
+N
+, 
+M
+, and 
+K
+ separated by spaces.
+N
+ represents the number of side menu items, 
+M
+ represents the number of main menu items, and 
+K
+ represents the number of appetizer menu items.
+(
+1
+≤
+N
+,
+M
+,
+K
+≤
+100
+)
+
+
+The second line contains 
+N
+ integers separated by spaces, representing the prices of 
+N
+ side menu items.
+The third line contains 
+M
+ integers separated by spaces, representing the prices of 
+M
+ main menu items.
+The fourth line contains 
+K
+ integers separated by spaces, representing the prices of 
+K
+ appetizer menu items.
+All these prices are integers ranging from 
+1
+ to 
+50
+ inclusive.
+
+
+출력
+Print answer.
+
+
+예제 1 입력
+2 3 4
+1 2
+5 3 4 
+8 9 7 6
+
+예제 1 출력
+10

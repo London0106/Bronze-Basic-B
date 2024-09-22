@@ -1,0 +1,29 @@
+by London
+문제
+A palindrome is a word that reads the same forwards and backwards. 
+Write a program to check whether the given word S
+, consisting of lowercase English letters, is a palindrome.
+
+
+입력
+The first line consists of word 
+S.
+(1≤|S|≤100)
+
+
+출력
+If S is a palindrome, output 1; 
+otherwise, output 0.
+
+
+예제 1 입력
+kayak
+
+예제 1 출력
+1
+
+예제 2 입력
+qrzcyuciwokms
+
+예제 2 출력
+0

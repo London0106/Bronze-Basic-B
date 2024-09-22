@@ -1,0 +1,41 @@
+문제
+A few days ago, the polar bear Willy, who purchased a smartphone, downloaded a cola delivery application called "Cola Nation"! Impressed by the ability to have cola delivered, Willy immediately wanted to make a call to order cola.
+
+
+However, since Willy has never made a phone call before, he cannot determine if the phone number provided in the "Cola Nation" application is a valid phone number or an incorrect one. 
+
+
+Being suspicious, Willy became curious about whether the phone number displayed in the application is a valid phone number or not. He asked you to confirm!
+
+
+In the Arctic, phone numbers should have the format of (digits)-(digits), and there should be A digits before the hyphen and B digits after the hyphen.
+
+
+For example, if A is 3 and B is 2, a phone number like 284-38 is correct, but numbers like 855-393 or 37-484 are incorrect.
+
+
+Let's create a program that tells Willy if the phone number he saw in the application is a valid phone number!
+
+
+입력
+The first line contains two integers A and B, representing the format of the Arctic's phone number. (Note that both A and B are between 1 and 5.)
+The second line contains the phone number that Willy saw in the "Cola Nation" application.
+
+
+출력
+If the phone number Willy saw corresponds to a valid phone number, output "Yes". Otherwise, output "No".
+
+
+예제 1 입력
+3 2
+832-19
+
+예제 1 출력
+Yes
+
+예제 2 입력
+4 3
+1234-5678
+
+예제 2 출력
+No

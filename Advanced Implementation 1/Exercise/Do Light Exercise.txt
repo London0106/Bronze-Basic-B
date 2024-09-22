@@ -1,0 +1,47 @@
+by London
+문제
+Lena wants to engage in light exercises to improve her physical fitness. 
+
+
+The exercises consist of the following:
+1: Push-up
+2: Sit-up
+3: Squat
+
+
+When Lena completes each of the exercises (1, 2, and 3) once, she considers it as completing one set of exercises.
+
+
+The number of times Lena performed exercises today is given as 
+N
+. Write a program to calculate and print how many sets of exercises Lena completed today.
+
+
+입력
+The first line contains an integer 
+N
+.
+(
+1
+≤
+N
+≤
+100
+)
+
+
+The second line contains 
+N
+ exercises separated by spaces.
+
+
+출력
+Print how many sets of exercises Lena completed today.
+
+
+예제 1 입력
+6
+1 2 3 3 2 1
+
+예제 1 출력
+2

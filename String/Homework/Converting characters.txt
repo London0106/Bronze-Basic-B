@@ -1,0 +1,25 @@
+by London
+문제
+Let's convert the uppercase letters to lowercase and the lowercase letters to uppercase in the given sentence and output it!
+
+
+입력
+A sentence without any spaces is given on a single line.
+The length of the sentence is at most 20.
+
+
+출력
+Output the sentence with the cases of the letters swapped (uppercase letters become lowercase, and lowercase letters become uppercase).
+
+
+예제 1 입력
+HelloAlgo
+
+예제 1 출력
+hELLOaLGO
+
+예제 2 입력
+ASCIIcode
+
+예제 2 출력
+asciiCODE

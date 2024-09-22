@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string encryptedMessage;
+    cin >> encryptedMessage;
+    int N=encryptedMessage.length();
+    int R = 1, C = N;
+    for (int r = 1; r <= N; r++) {
+        if (N % r == 0) {
+            int c = N / r;
+            if (r <= c) {
+                R = r;
+                C = c;
+            }
+        }
+    }
+    char arr[R][C];
+    int index = 0;
+    for (int c = 0; c < C; c++) {
+        for (int r = 0; r < R; r++) {
+            arr[r][c] = encryptedMessage[index++];
+        }
+    }
+    string originalMessage;
+    for (int r = 0; r < R; r++) {
+        for (int c = 0; c < C; c++) {
+            originalMessage += arr[r][c];
+        }
+    }
+    cout << originalMessage << endl;
+    return 0;
+}

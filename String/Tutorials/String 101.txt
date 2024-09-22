@@ -1,0 +1,47 @@
+by London
+문제
+Long, long ago, when we first learned programming, we practiced inputting and outputting single numbers or characters.
+
+
+This time, let's practice inputting and outputting strings!
+
+
+To input a string, the following steps are required:
+
+
+Include the header: #include <iostream>
+
+Use the namespace: using namespace std;
+
+
+All three steps must be taken in order to properly use strings.
+
+
+To declare a string, use the following format: "string variable_name;". For example, to declare a string called s1, you can write "string s1;".
+
+
+When using iostream to input a string, use the format "cin >> variable_name". And when outputting, use the format "cout << variable_name". If you want to start a new line (similar to "\n" in cstdio), you can use "endl".
+
+
+Now, let's practice inputting and outputting strings using the template code!
+
+
+입력
+A string without any spaces is given on a single line.
+
+
+출력
+Output the inputted string as it is.
+
+
+예제 1 입력
+helloalgo
+
+예제 1 출력
+helloalgo
+
+예제 2 입력
+string
+
+예제 2 출력
+string

@@ -1,0 +1,39 @@
+by London
+문제
+Santa John and the polar bear Willy fight with each other every day but believe that they are friends.
+However, their trust is sometimes broken when they play games.
+
+
+To rebuild their unity, John and Willy want to play a new game.
+
+
+The game is very simple: they take turns saying one letter each to form a desired string. For example, to say the string 'helloalgo,' Willy would say 'hlolo' and John would say 'elag'!
+
+
+If we are given the words that Willy and John said, we need to create a program to determine the original word they intended to say.
+For example, if 'hlolo' and 'elag' are given as input, the program should output 'helloalgo'!
+
+
+입력
+The first line contains the word that Willy said, and the second line contains the word that John said.
+The length of the two words is either the same or the word that Willy said is one character longer.
+Note that all words are shorter than 1000 characters.
+
+
+출력
+Output the word that Willy and John intended to say together.
+
+
+예제 1 입력
+xyz
+abc
+
+예제 1 출력
+xaybzc
+
+예제 2 입력
+atcoderbeginnercontest
+atcoderregularcontest
+
+예제 2 출력
+aattccooddeerrbreeggiunlnaerrccoonntteesstt

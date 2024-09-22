@@ -1,0 +1,27 @@
+by London
+문제
+Polar bear Willy wants to create an AZ string to celebrate John's birthday.
+An AZ string is a string that starts with 'A' and ends with 'Z'!
+Given a string, let's find the length of the longest AZ string within the string.
+
+
+입력
+The first line contains a string S of up to 200,000 characters.
+The string consists of uppercase English letters.
+
+
+출력
+Output the length of the longest AZ string within the given string.
+
+
+예제 1 입력
+QWERTYASDFZXCV
+
+예제 1 출력
+5
+
+예제 2 입력
+ZABCZ
+
+예제 2 출력
+4
