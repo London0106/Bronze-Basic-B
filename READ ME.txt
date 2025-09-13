@@ -6,5 +6,4 @@ This Document was created in 9/21/2024.
  \ \_____\  \ \_____\  \ \_\\"\_\  \ \____-  \ \_____\  \ \_\\"\_\ 
   \/_____/   \/_____/   \/_/ \/_/   \/____/   \/_____/   \/_/ \/_/ 
                                                                    
-USACO Bronze (BASIC B) Guide by London.                                    
-
+USACO Bronze (BASIC B) Guide by London.
